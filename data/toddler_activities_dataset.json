@@ -1,0 +1,1139 @@
+[
+  {
+    "activity_name": "Rainbow Rice Sensory Bin",
+    "activity_category": "sensory",
+    "materials": [
+      "colored rice",
+      "plastic bin",
+      "measuring cups",
+      "small scoops",
+      "plastic animals or toys"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 10,
+    "description": "Children explore colored rice through scooping, pouring, and hiding small objects within the bin.",
+    "parent_instruction": "Fill a plastic bin with rainbow-colored rice (dyed with food coloring and vinegar). Add measuring cups, scoops, and small toys. Show your child how to scoop and pour, then let them explore freely. Encourage them to find hidden objects buried in the rice.",
+    "variations": [
+      "Add letter or number cards to find and identify.",
+      "Create a treasure hunt with specific items to discover.",
+      "Use funnels and tubes to watch rice flow."
+    ]
+  },
+  {
+    "activity_name": "Paper Plate Tambourine",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "two paper plates",
+      "dried beans or rice",
+      "stapler or tape",
+      "markers or crayons",
+      "stickers"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 5,
+    "description": "Kids create their own musical instrument by decorating paper plates and filling them with noise-makers.",
+    "parent_instruction": "Let your child decorate the bottom of two paper plates with markers and stickers. Place a handful of beans on one plate, then place the second plate on top (decorated sides out). Staple or tape the edges together securely. Shake and make music together!",
+    "variations": [
+      "Punch holes around the edge and thread ribbons through.",
+      "Try different fillings like bells or pasta for varied sounds.",
+      "Create a band with multiple instruments."
+    ]
+  },
+  {
+    "activity_name": "Obstacle Course Adventure",
+    "activity_category": "gross_motor",
+    "materials": [
+      "pillows",
+      "hula hoops",
+      "chairs",
+      "blankets",
+      "tape for floor markers"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 7
+    },
+    "duration_minutes": 30,
+    "prep_time_minutes": 10,
+    "description": "Children navigate through a homemade obstacle course, developing balance, coordination, and following directions.",
+    "parent_instruction": "Set up stations: crawl under chairs draped with blankets, hop through hula hoops, walk across a line of tape, and jump over pillows. Demonstrate each station first. Guide younger children through and time older ones for added challenge.",
+    "variations": [
+      "Add animal movements like bear crawls or frog jumps.",
+      "Create a themed course like jungle or outer space.",
+      "Have children help design and set up the course."
+    ]
+  },
+  {
+    "activity_name": "Color Sorting Pom Poms",
+    "activity_category": "cognitive",
+    "materials": [
+      "colorful pom poms",
+      "muffin tin or small bowls",
+      "tongs or tweezers",
+      "color cards"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 3,
+    "description": "Toddlers sort pom poms by color while practicing fine motor skills with tongs.",
+    "parent_instruction": "Place colored paper circles in each muffin tin cup. Dump pom poms in a pile and show your child how to use tongs to pick up and sort by matching colors. Start with 3-4 colors for younger children and add more as they master the skill.",
+    "variations": [
+      "Sort by size instead of color.",
+      "Count how many pom poms in each cup.",
+      "Race against a timer for older children."
+    ]
+  },
+  {
+    "activity_name": "Freeze Dance Party",
+    "activity_category": "music_and_movement",
+    "materials": [
+      "music player",
+      "kid-friendly playlist",
+      "optional: scarves or ribbons"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 7
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 2,
+    "description": "Children dance freely when music plays and freeze in place when it stops, building self-regulation and listening skills.",
+    "parent_instruction": "Play upbeat music and encourage your child to dance however they like. Randomly pause the music and call 'Freeze!' Everyone must stop moving until the music starts again. Make it silly by freezing in funny poses yourself.",
+    "variations": [
+      "Call out specific poses to freeze in like a tree or flamingo.",
+      "Use flashlight as spotlight on the best freezer.",
+      "Add props like scarves to wave while dancing."
+    ]
+  },
+  {
+    "activity_name": "Cardboard Box Car",
+    "activity_category": "imaginative_play",
+    "materials": [
+      "large cardboard box",
+      "paper plates for wheels",
+      "markers",
+      "tape",
+      "scissors (adult use)"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 45,
+    "prep_time_minutes": 15,
+    "description": "Transform a cardboard box into a car for imaginative driving adventures.",
+    "parent_instruction": "Cut the box flaps to create a car shape with an opening on top. Let your child decorate with markers, adding headlights, doors, and racing stripes. Attach paper plate wheels with tape. Cut out a cardboard steering wheel. Once complete, encourage pretend road trips and adventures.",
+    "variations": [
+      "Create a race car, fire truck, or spaceship.",
+      "Add a paper license plate with their name.",
+      "Set up a pretend drive-through restaurant."
+    ]
+  },
+  {
+    "activity_name": "Nature Scavenger Hunt",
+    "activity_category": "outdoor",
+    "materials": [
+      "paper bag or basket",
+      "picture checklist",
+      "crayons for marking finds"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 7
+    },
+    "duration_minutes": 30,
+    "prep_time_minutes": 5,
+    "description": "Children search outdoors for natural items on a picture list, encouraging observation and exploration.",
+    "parent_instruction": "Create a simple picture list of items to find: leaf, stick, rock, flower, pinecone, feather. Walk together outdoors and help your child spot and collect items. Check off each find. Discuss colors, textures, and where you found each item.",
+    "variations": [
+      "Focus on one color and find as many matching items as possible.",
+      "Take photos instead of collecting items.",
+      "Create art with collected natural materials afterward."
+    ]
+  },
+  {
+    "activity_name": "Playdough Cookie Shop",
+    "activity_category": "imaginative_play",
+    "materials": [
+      "playdough in various colors",
+      "cookie cutters",
+      "rolling pin",
+      "plastic plates",
+      "play cash register or coins"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 30,
+    "prep_time_minutes": 5,
+    "description": "Children create playdough cookies and role-play running a bakery shop.",
+    "parent_instruction": "Help your child roll out playdough and use cookie cutters to make shapes. Add decorations by pressing in small pieces of different colored dough. Set up a pretend shop where they can be the baker and you're the customer ordering cookies.",
+    "variations": [
+      "Make a full bakery with cupcakes and cakes.",
+      "Practice counting by pricing cookies.",
+      "Create a menu with pictures of available treats."
+    ]
+  },
+  {
+    "activity_name": "Bubble Wrap Stomp",
+    "activity_category": "sensory",
+    "materials": [
+      "large sheet of bubble wrap",
+      "tape"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 2,
+    "description": "Children stomp, jump, and walk on bubble wrap experiencing the satisfying pops and sensory feedback.",
+    "parent_instruction": "Tape a large sheet of bubble wrap to the floor to prevent slipping. Let your child walk, stomp, and jump on it. Make it a game by counting pops or trying different movements. The auditory and tactile feedback is wonderfully satisfying.",
+    "variations": [
+      "Try popping with hands, elbows, or knees.",
+      "Cover the wrap and guess what makes the sound.",
+      "Race to see who can pop a row first."
+    ]
+  },
+  {
+    "activity_name": "Egg Carton Caterpillar",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "cardboard egg carton",
+      "paint and brushes",
+      "pipe cleaners",
+      "googly eyes",
+      "glue"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 5,
+    "description": "Transform an egg carton into a colorful caterpillar using paint and simple craft supplies.",
+    "parent_instruction": "Cut the egg carton in half lengthwise to create a row of bumps. Let your child paint each section a different color. Once dry, help poke pipe cleaners through the top for antennae and glue on googly eyes. Discuss how caterpillars turn into butterflies.",
+    "variations": [
+      "Make a whole bug family with different creatures.",
+      "Add legs with more pipe cleaners.",
+      "Create a garden scene background."
+    ]
+  },
+  {
+    "activity_name": "Simon Says",
+    "activity_category": "cognitive",
+    "materials": [
+      "no materials needed"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 7
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 0,
+    "description": "Classic listening game where children follow commands only when preceded by 'Simon Says.'",
+    "parent_instruction": "Give commands like 'Simon says touch your nose' or 'Simon says jump.' Children should only follow commands that start with 'Simon says.' Start slowly and increase speed as they get better. Take turns letting your child be Simon.",
+    "variations": [
+      "Use animal movements for commands.",
+      "Play with emotions like 'Simon says make a happy face.'",
+      "Add a silly theme like robot or princess movements."
+    ]
+  },
+  {
+    "activity_name": "Painting with Vegetables",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "celery stalks",
+      "halved bell peppers",
+      "potato cut in shapes",
+      "washable paint",
+      "paper"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 10,
+    "description": "Children use cut vegetables as stamps to create unique prints and patterns.",
+    "parent_instruction": "Cut vegetables to reveal interesting shapes: celery base makes flowers, bell pepper makes circles, potatoes can be carved into shapes. Pour paint onto plates. Show your child how to dip and press vegetables onto paper. Discuss the different patterns each makes.",
+    "variations": [
+      "Create a garden scene using only vegetable stamps.",
+      "Make wrapping paper with repeated patterns.",
+      "Mix the activity with learning about vegetables and healthy eating."
+    ]
+  },
+  {
+    "activity_name": "Sock Puppet Theater",
+    "activity_category": "imaginative_play",
+    "materials": [
+      "old socks",
+      "buttons",
+      "yarn",
+      "felt scraps",
+      "fabric glue",
+      "markers"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 40,
+    "prep_time_minutes": 5,
+    "description": "Create sock puppet characters and put on imaginative shows.",
+    "parent_instruction": "Help your child create puppet characters by gluing buttons for eyes, yarn for hair, and felt for mouths and accessories. Once puppets are ready, drape a blanket over chairs for a stage. Encourage your child to create a story and perform it.",
+    "variations": [
+      "Retell a favorite book using puppets.",
+      "Create a puppet family and act out daily routines.",
+      "Record the puppet show on video."
+    ]
+  },
+  {
+    "activity_name": "Balancing Bean Bag Walk",
+    "activity_category": "gross_motor",
+    "materials": [
+      "bean bags or small stuffed toys",
+      "tape for floor line"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 3,
+    "description": "Children practice balance by walking with bean bags on their heads, shoulders, or hands.",
+    "parent_instruction": "Create a path with tape on the floor. Have your child balance a bean bag on their head while walking the path. If it falls, they start over. Progress to balancing on shoulders, then try walking backwards. Celebrate successes enthusiastically.",
+    "variations": [
+      "Add obstacles to step over or around.",
+      "Try balancing on different body parts.",
+      "Make it a relay race with siblings or friends."
+    ]
+  },
+  {
+    "activity_name": "Ice Cube Rescue",
+    "activity_category": "sensory",
+    "materials": [
+      "small toys frozen in ice",
+      "warm water",
+      "salt",
+      "droppers or squeeze bottles",
+      "tray"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 240,
+    "description": "Children rescue frozen toys by melting ice using warm water and salt.",
+    "parent_instruction": "Freeze small toys in containers of water overnight. Place the ice blocks in a tray and give your child warm water in droppers and salt to help melt the ice. Discuss what makes ice melt faster. Celebrate each rescued toy.",
+    "variations": [
+      "Add food coloring for visual effect.",
+      "Time how long different methods take.",
+      "Create a frozen dinosaur excavation theme."
+    ]
+  },
+  {
+    "activity_name": "Letter Hunt Magazine Collage",
+    "activity_category": "cognitive",
+    "materials": [
+      "old magazines",
+      "safety scissors",
+      "glue stick",
+      "paper",
+      "marker"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 3,
+    "description": "Children search for and cut out specific letters to create alphabet collages.",
+    "parent_instruction": "Write a target letter on paper. Help your child look through magazines to find that letter in different fonts, sizes, and colors. Cut them out and glue onto the paper around the written letter. Discuss words that start with that letter.",
+    "variations": [
+      "Spell out the child's name with found letters.",
+      "Hunt for numbers instead.",
+      "Find pictures of things starting with the target letter."
+    ]
+  },
+  {
+    "activity_name": "Shaving Cream Table Art",
+    "activity_category": "sensory",
+    "materials": [
+      "shaving cream",
+      "food coloring",
+      "flat surface or tray",
+      "plastic scraper or card"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 3,
+    "description": "Children explore and create in fluffy shaving cream, mixing colors and practicing pre-writing strokes.",
+    "parent_instruction": "Spray shaving cream on a tray or directly on a wipeable table. Add drops of food coloring. Let your child swirl, draw, and explore. Practice drawing shapes, letters, or just enjoy the sensory experience. Easy cleanup with a wet cloth.",
+    "variations": [
+      "Press paper on top to make marbled prints.",
+      "Hide small objects inside to find.",
+      "Practice writing letters or numbers."
+    ]
+  },
+  {
+    "activity_name": "Traffic Light Game",
+    "activity_category": "gross_motor",
+    "materials": [
+      "red, yellow, and green paper circles",
+      "stick or handle to hold signs"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 5,
+    "description": "Children practice stop, slow, and go movements responding to traffic light colors.",
+    "parent_instruction": "Attach colored circles to sticks. When you hold up green, children run. Yellow means slow motion walking. Red means freeze. Mix up the speed of changing colors to keep it exciting. Discuss real traffic light safety.",
+    "variations": [
+      "Add vehicles like pretending to be cars or bikes.",
+      "Include silly movements for each color.",
+      "Let children take turns being the traffic light."
+    ]
+  },
+  {
+    "activity_name": "Button Snake Threading",
+    "activity_category": "fine_motor",
+    "materials": [
+      "ribbon or shoelace",
+      "felt squares with buttonhole slits",
+      "large button sewn to ribbon end"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 5
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 10,
+    "description": "Children thread felt squares onto a ribbon using button and buttonhole technique.",
+    "parent_instruction": "Sew a large button firmly to one end of a ribbon. Cut slits in felt squares just big enough for the button. Show your child how to push the button through each slit to add pieces to their snake. Great for buttoning skill practice.",
+    "variations": [
+      "Use different colored felts and create patterns.",
+      "Count how many pieces they can add.",
+      "Make a caterpillar or worm instead of snake."
+    ]
+  },
+  {
+    "activity_name": "Kitchen Band",
+    "activity_category": "music_and_movement",
+    "materials": [
+      "pots and wooden spoons",
+      "plastic containers with lids",
+      "rice in sealed containers for shakers",
+      "metal bowls"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 5,
+    "description": "Create music using safe kitchen items as instruments.",
+    "parent_instruction": "Gather safe kitchen items that make different sounds. Show your child how to drum pots with wooden spoons, shake rice containers, and tap bowls. Play music and encourage them to keep the beat. Take turns being the conductor.",
+    "variations": [
+      "March around the house while playing.",
+      "Try playing loud versus soft sounds.",
+      "Record your kitchen band concert."
+    ]
+  },
+  {
+    "activity_name": "Laundry Basket Ball Toss",
+    "activity_category": "gross_motor",
+    "materials": [
+      "laundry basket",
+      "soft balls or rolled up socks",
+      "tape for throw line"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 6
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 2,
+    "description": "Children practice throwing and aiming by tossing balls into a laundry basket target.",
+    "parent_instruction": "Place a laundry basket a few feet away and mark a throw line with tape. Give your child soft balls or rolled socks to toss into the basket. Start close and gradually increase distance as they succeed. Count how many they get in.",
+    "variations": [
+      "Use different sized targets for varying points.",
+      "Try underhand and overhand throws.",
+      "Add movement by having them jump before throwing."
+    ]
+  },
+  {
+    "activity_name": "Paper Airplane Factory",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "paper in various colors",
+      "crayons or markers",
+      "stickers"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 2,
+    "description": "Children learn to fold paper airplanes and decorate them before flying.",
+    "parent_instruction": "Teach a simple paper airplane fold step by step. Let your child decorate their plane with designs and stickers. Test fly together and discuss what makes planes fly well. Try different designs and see which flies farthest.",
+    "variations": [
+      "Create a target to aim for when flying.",
+      "Measure and chart flight distances.",
+      "Design planes for different purposes like loops or distance."
+    ]
+  },
+  {
+    "activity_name": "Water Transfer Station",
+    "activity_category": "sensory",
+    "materials": [
+      "two bowls",
+      "sponges",
+      "turkey baster",
+      "cups",
+      "towels",
+      "water"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 3,
+    "description": "Children transfer water between containers using various tools, building coordination and focus.",
+    "parent_instruction": "Set up two bowls, one filled with water. Provide sponges, basters, and small cups for transferring water to the empty bowl. Show different techniques and let your child experiment. Lay towels underneath for easy cleanup.",
+    "variations": [
+      "Add food coloring to make it more exciting.",
+      "Time how fast they can transfer all the water.",
+      "Add floating toys to transfer along with water."
+    ]
+  },
+  {
+    "activity_name": "Indoor Camping",
+    "activity_category": "imaginative_play",
+    "materials": [
+      "blankets and sheets",
+      "flashlight",
+      "pillows",
+      "stuffed animals",
+      "snacks"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 7
+    },
+    "duration_minutes": 45,
+    "prep_time_minutes": 10,
+    "description": "Create an indoor tent fort for imaginative camping adventures.",
+    "parent_instruction": "Drape blankets over furniture to create a tent. Add pillows, stuffed animals, and a flashlight inside. Pretend to roast marshmallows, tell stories, and look for pretend stars. Sing campfire songs and enjoy camping snacks together.",
+    "variations": [
+      "Add nature sounds from a phone or speaker.",
+      "Make paper binoculars for wildlife spotting.",
+      "Read camping-themed books inside the tent."
+    ]
+  },
+  {
+    "activity_name": "Shape Hopscotch",
+    "activity_category": "gross_motor",
+    "materials": [
+      "tape or chalk",
+      "colored paper shapes"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 10,
+    "description": "A shape-learning twist on classic hopscotch using different geometric shapes.",
+    "parent_instruction": "Create a hopscotch grid using shapes instead of numbers. Call out a shape and have your child hop to it. Progress to calling colors, then combine like 'hop to the blue circle.' Take turns being the caller.",
+    "variations": [
+      "Add numbers inside shapes for counting practice.",
+      "Create patterns to follow while hopping.",
+      "Time how fast they can hop through all shapes."
+    ]
+  },
+  {
+    "activity_name": "Painting with Wheels",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "toy cars with textured wheels",
+      "washable paint",
+      "large paper",
+      "shallow trays"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 5,
+    "description": "Children drive toy cars through paint to create tire track artwork.",
+    "parent_instruction": "Pour thin layers of paint into shallow trays. Let your child dip car wheels in paint and drive them across paper. Experiment with different cars for various track patterns. Discuss the lines, curves, and patterns created.",
+    "variations": [
+      "Build roads and cities on the artwork once dry.",
+      "Use different vehicles like trains or motorcycles.",
+      "Layer colors for rainbow tracks."
+    ]
+  },
+  {
+    "activity_name": "Mystery Bag Guessing",
+    "activity_category": "sensory",
+    "materials": [
+      "cloth bag or pillowcase",
+      "various household objects with distinct textures"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 5,
+    "description": "Children reach into a bag and guess objects using only their sense of touch.",
+    "parent_instruction": "Place 5-10 familiar objects in an opaque bag. Have your child reach in without looking and describe what they feel. Can they guess what it is? Pull it out to check. Discuss the texture clues that helped them guess.",
+    "variations": [
+      "Use themed objects like all kitchen items or toys.",
+      "Have child put objects in for parent to guess.",
+      "Increase difficulty with similar-feeling objects."
+    ]
+  },
+  {
+    "activity_name": "Yoga Animal Adventure",
+    "activity_category": "music_and_movement",
+    "materials": [
+      "yoga mat or soft surface",
+      "animal picture cards"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 7
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 3,
+    "description": "Children learn simple yoga poses named after animals while creating an adventure story.",
+    "parent_instruction": "Teach poses like downward dog, cobra, cat, cow, and butterfly. Create a story where you travel and meet different animals, doing each pose when you encounter them. Hold poses for several breaths. Make animal sounds for extra fun.",
+    "variations": [
+      "Add music for a flowing sequence.",
+      "Let children invent their own animal poses.",
+      "Create a jungle, ocean, or farm theme."
+    ]
+  },
+  {
+    "activity_name": "Sticker Dot Art",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "dot stickers in various colors",
+      "paper with simple outline drawings",
+      "blank paper"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 3,
+    "description": "Children fill in pictures or create designs using colorful dot stickers.",
+    "parent_instruction": "Provide paper with simple outlines like a rainbow, flower, or caterpillar. Show your child how to peel and place stickers to fill in the design. Younger children can place randomly while older ones can follow patterns or create their own pictures.",
+    "variations": [
+      "Create a sticker by numbers activity.",
+      "Make greeting cards for family members.",
+      "Use stickers to form letters or numbers."
+    ]
+  },
+  {
+    "activity_name": "Pasta Necklace",
+    "activity_category": "fine_motor",
+    "materials": [
+      "penne or rigatoni pasta",
+      "food coloring",
+      "yarn or string",
+      "tape"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 15,
+    "description": "Children thread pasta onto string to create wearable jewelry.",
+    "parent_instruction": "Pre-dye pasta with food coloring and let dry. Wrap tape around one end of yarn to create a needle. Show your child how to thread pasta onto the string. Help tie ends together when finished. Discuss colors and patterns.",
+    "variations": [
+      "Create patterns with alternating colors.",
+      "Make bracelets with smaller pasta.",
+      "Add beads between pasta pieces."
+    ]
+  },
+  {
+    "activity_name": "Doctor Checkup Pretend Play",
+    "activity_category": "imaginative_play",
+    "materials": [
+      "toy doctor kit or household substitutes",
+      "stuffed animals as patients",
+      "bandages",
+      "clipboard with paper"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 30,
+    "prep_time_minutes": 5,
+    "description": "Children role-play as doctors giving checkups to stuffed animal patients.",
+    "parent_instruction": "Set up a doctor's office with a waiting area and exam table. Let your child give checkups to stuffed animals using the doctor kit. They can check heartbeat, give shots, apply bandages, and prescribe rest. Take turns being doctor and patient.",
+    "variations": [
+      "Include a veterinarian role for animal patients.",
+      "Add a receptionist role with appointment scheduling.",
+      "Create prescription pads for writing medicine orders."
+    ]
+  },
+  {
+    "activity_name": "Cloud Dough Play",
+    "activity_category": "sensory",
+    "materials": [
+      "flour",
+      "baby oil or vegetable oil",
+      "mixing bowl",
+      "cookie cutters",
+      "cups and molds"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 5,
+    "description": "Children play with moldable, silky cloud dough that holds shapes but crumbles softly.",
+    "parent_instruction": "Mix 8 cups flour with 1 cup oil until it reaches a soft, moldable texture. Let your child explore the unique feeling—it holds shapes but crumbles when squeezed. Provide cookie cutters and molds for creating. Store in an airtight container.",
+    "variations": [
+      "Add essential oils for scent.",
+      "Bury small toys to discover.",
+      "Add food coloring for colored dough."
+    ]
+  },
+  {
+    "activity_name": "Cardboard Tube Binoculars",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "two toilet paper tubes",
+      "tape",
+      "string",
+      "paint or markers",
+      "stickers"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 3,
+    "description": "Create pretend binoculars for nature exploration and imaginative adventures.",
+    "parent_instruction": "Tape two toilet paper tubes together side by side. Let your child decorate with paint, markers, or stickers. Attach a string for wearing around neck. Use for bird watching, safari adventures, or superhero missions.",
+    "variations": [
+      "Add colored cellophane to ends for colored vision.",
+      "Create a matching safari hat.",
+      "Make a telescope with one long tube instead."
+    ]
+  },
+  {
+    "activity_name": "Number Jump",
+    "activity_category": "cognitive",
+    "materials": [
+      "paper plates or cards",
+      "marker",
+      "tape"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 5,
+    "description": "Children jump to numbers as called out, combining physical activity with number recognition.",
+    "parent_instruction": "Write numbers 1-10 on paper plates and tape them to the floor in random positions. Call out a number and have your child jump to it. Progress to simple addition like 'jump to 2 plus 1.' Celebrate correct answers enthusiastically.",
+    "variations": [
+      "Call out the answer and they find the equation.",
+      "Jump in counting order forward and backward.",
+      "Add letters for alphabet version."
+    ]
+  },
+  {
+    "activity_name": "Sensory Bin Treasure Dig",
+    "activity_category": "sensory",
+    "materials": [
+      "kinetic sand or regular sand",
+      "small toys or gems",
+      "paintbrushes",
+      "small shovels"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 10,
+    "description": "Children excavate buried treasures from sand like real archaeologists.",
+    "parent_instruction": "Bury small toys, plastic gems, or coins in sand. Give your child brushes and small tools to carefully dig and uncover treasures. Discuss what they find and create stories about the treasures' origins.",
+    "variations": [
+      "Create a dinosaur fossil dig theme.",
+      "Hide letters spelling a word to uncover.",
+      "Map the location of treasures before digging."
+    ]
+  },
+  {
+    "activity_name": "Rhythm Sticks Pattern Play",
+    "activity_category": "music_and_movement",
+    "materials": [
+      "wooden dowels or rhythm sticks",
+      "music player"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 7
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 2,
+    "description": "Children follow and create rhythm patterns using sticks.",
+    "parent_instruction": "Give your child two sticks to tap together. Start with a simple pattern like tap-tap-pause, tap-tap-pause. Have them copy you. Progress to more complex patterns. Play music and tap along to the beat. Take turns being the pattern leader.",
+    "variations": [
+      "Tap on different surfaces for varied sounds.",
+      "Create a pattern story with soft and loud taps.",
+      "Follow along with action songs."
+    ]
+  },
+  {
+    "activity_name": "Texture Rubbing Art",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "crayons with paper removed",
+      "thin paper",
+      "textured objects like leaves, coins, fabric"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 7
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 5,
+    "description": "Children discover textures by rubbing crayons over paper placed on textured surfaces.",
+    "parent_instruction": "Place textured items under thin paper. Show your child how to rub the side of a crayon across the paper to reveal the texture. Try different objects and colors. Discuss what makes each texture appear and why some work better than others.",
+    "variations": [
+      "Go on a texture hunt around the house.",
+      "Create a texture book with labeled pages.",
+      "Layer multiple textures on one paper."
+    ]
+  },
+  {
+    "activity_name": "Grocery Store Pretend Play",
+    "activity_category": "imaginative_play",
+    "materials": [
+      "empty food boxes and containers",
+      "play money or paper coins",
+      "bags",
+      "toy shopping cart or basket",
+      "price tags"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 7
+    },
+    "duration_minutes": 30,
+    "prep_time_minutes": 10,
+    "description": "Set up a pretend grocery store for shopping and selling role-play.",
+    "parent_instruction": "Arrange empty food containers on shelves or a table. Add price tags. Give your child a shopping list with pictures and play money. Take turns being the shopper and cashier. Practice counting money and making change with older children.",
+    "variations": [
+      "Create a farmers market with play fruits and vegetables.",
+      "Add a bakery or deli counter.",
+      "Make coupons for extra savings."
+    ]
+  },
+  {
+    "activity_name": "Cotton Ball Hockey",
+    "activity_category": "gross_motor",
+    "materials": [
+      "cotton balls",
+      "straws",
+      "tape for goal marks",
+      "flat surface"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 3,
+    "description": "Children blow cotton balls through goals using straws in this breath-control game.",
+    "parent_instruction": "Create goals at each end of a table with tape. Each player uses a straw to blow their cotton ball toward the opponent's goal. This builds breath control and is excellent for oral motor development. Keep score for added excitement.",
+    "variations": [
+      "Use ping pong balls for more challenge.",
+      "Create obstacle courses to blow through.",
+      "Race cotton balls without goals."
+    ]
+  },
+  {
+    "activity_name": "Magnet Discovery Board",
+    "activity_category": "cognitive",
+    "materials": [
+      "magnet wand or strong magnet",
+      "metal baking sheet",
+      "various small objects (some magnetic, some not)"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 5,
+    "description": "Children explore magnetism by testing which objects stick to magnets.",
+    "parent_instruction": "Provide a collection of small objects and a magnet. Have your child predict which will stick, then test each one. Sort into magnetic and non-magnetic piles. Discuss what magnetic objects have in common. Move objects around the back of a baking sheet with the magnet.",
+    "variations": [
+      "Create a magnetic fishing game with paperclip fish.",
+      "Hide magnetic items in sensory bin to find.",
+      "Draw a maze and guide magnetic objects through."
+    ]
+  },
+  {
+    "activity_name": "Butterfly Life Cycle Craft",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "paper plate",
+      "pasta shapes (spiral, shell, bow-tie)",
+      "green paint",
+      "glue",
+      "markers"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 5,
+    "description": "Create a life cycle diagram using pasta to represent each stage.",
+    "parent_instruction": "Divide a paper plate into four sections. In each section, glue pasta representing: tiny rice as eggs, spiral pasta as caterpillar, shell pasta as chrysalis, and bow-tie pasta colored as butterfly. Label each stage and discuss the transformation.",
+    "variations": [
+      "Create life cycles of other animals.",
+      "Add a leaf background for the caterpillar stage.",
+      "Watch real caterpillar videos alongside."
+    ]
+  },
+  {
+    "activity_name": "Balloon Keep It Up",
+    "activity_category": "gross_motor",
+    "materials": [
+      "balloons",
+      "open space"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 7
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 2,
+    "description": "Children try to keep a balloon from touching the ground using any body part.",
+    "parent_instruction": "Inflate a balloon and challenge your child to keep it in the air as long as possible. Count hits together. Try using only certain body parts like head or knee. Play together and see how long you can keep it up as a team.",
+    "variations": [
+      "Add multiple balloons for more challenge.",
+      "Use only non-dominant hand.",
+      "Play balloon volleyball over a string."
+    ]
+  },
+  {
+    "activity_name": "Emotion Face Matching",
+    "activity_category": "cognitive",
+    "materials": [
+      "emotion picture cards",
+      "mirror",
+      "paper and crayons for drawing faces"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 15,
+    "prep_time_minutes": 5,
+    "description": "Children identify and practice expressing different emotions using faces.",
+    "parent_instruction": "Show emotion cards one at a time. Have your child name the emotion and make that face in a mirror. Discuss when we might feel that way. Draw faces showing different emotions. Talk about healthy ways to express each feeling.",
+    "variations": [
+      "Act out scenarios that cause each emotion.",
+      "Create an emotion wheel craft.",
+      "Read stories and identify character emotions."
+    ]
+  },
+  {
+    "activity_name": "Shadow Puppet Show",
+    "activity_category": "imaginative_play",
+    "materials": [
+      "flashlight",
+      "white sheet or wall",
+      "hands or cardboard cutout puppets",
+      "tape and scissors"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 10,
+    "description": "Create shadow puppets and perform shows on a lit wall.",
+    "parent_instruction": "Hang a white sheet or use a blank wall. Shine a flashlight from behind. Teach simple hand shadows like birds and dogs, or create cardboard puppets on sticks. Help your child create a simple story to perform with their shadows.",
+    "variations": [
+      "Trace shadows on paper to keep.",
+      "Add colored cellophane for colored shadows.",
+      "Retell a familiar story with shadows."
+    ]
+  },
+  {
+    "activity_name": "Rainbow Walking Water",
+    "activity_category": "cognitive",
+    "materials": [
+      "clear cups or jars",
+      "water",
+      "food coloring (red, yellow, blue)",
+      "paper towels"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 30,
+    "prep_time_minutes": 5,
+    "description": "Watch water travel between cups through paper towels, mixing to create new colors.",
+    "parent_instruction": "Arrange 7 cups in a row. Fill alternating cups with water and add colors: red, yellow, blue in cups 1, 3, 5, 7. Fold paper towels and drape between cups. Watch over 30 minutes as water walks up and creates orange, green, and purple in empty cups.",
+    "variations": [
+      "Predict what colors will form.",
+      "Time how long the water takes to travel.",
+      "Try different paper towel brands to compare."
+    ]
+  },
+  {
+    "activity_name": "Cardboard Castle Building",
+    "activity_category": "arts_and_crafts",
+    "materials": [
+      "cardboard boxes of various sizes",
+      "tape",
+      "scissors (adult use)",
+      "markers",
+      "construction paper"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 45,
+    "prep_time_minutes": 10,
+    "description": "Construct a castle from cardboard boxes for imaginative play.",
+    "parent_instruction": "Stack and connect boxes to form a castle shape. Cut out windows and a door. Let your child decorate with markers and construction paper flags. Add details like a drawbridge or tower. Use for knight and princess imaginative play afterward.",
+    "variations": [
+      "Build a spaceship or robot instead.",
+      "Make it big enough to sit inside.",
+      "Create a whole kingdom with multiple buildings."
+    ]
+  },
+  {
+    "activity_name": "Puddle Jumping",
+    "activity_category": "outdoor",
+    "materials": [
+      "rain boots",
+      "rain jacket",
+      "puddles or shallow water containers"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 6
+    },
+    "duration_minutes": 20,
+    "prep_time_minutes": 5,
+    "description": "Children splash and jump in puddles, exploring water and movement.",
+    "parent_instruction": "After rain, or by creating puddles with a hose, let your child splash freely in boots. Jump together and compare splash sizes. Count jumps, try different jumping styles, and enjoy the sensory experience of water play.",
+    "variations": [
+      "Add leaves or flower petals to puddles.",
+      "Measure puddle depths with a stick.",
+      "Create chalk outlines around puddles."
+    ]
+  },
+  {
+    "activity_name": "Popsicle Stick Puzzles",
+    "activity_category": "cognitive",
+    "materials": [
+      "large popsicle sticks",
+      "markers or paint",
+      "rubber band",
+      "pictures to copy"
+    ],
+    "age_range": {
+      "min": 3,
+      "max": 6
+    },
+    "duration_minutes": 25,
+    "prep_time_minutes": 10,
+    "description": "Create and solve simple puzzles drawn across popsicle sticks.",
+    "parent_instruction": "Line up 6-8 popsicle sticks and secure with a rubber band. Draw a simple picture across all sticks. Remove the band and mix up the sticks. Have your child put them back in order to complete the picture. Start simple and increase complexity.",
+    "variations": [
+      "Draw letters spelling the child's name.",
+      "Create number sequences to arrange.",
+      "Make multiple puzzles and time solving them."
+    ]
+  },
+  {
+    "activity_name": "Blanket Swing",
+    "activity_category": "gross_motor",
+    "materials": [
+      "sturdy blanket",
+      "two adults or strong supports"
+    ],
+    "age_range": {
+      "min": 2,
+      "max": 5
+    },
+    "duration_minutes": 10,
+    "prep_time_minutes": 1,
+    "description": "Child lies in a blanket while adults gently swing them back and forth.",
+    "parent_instruction": "Have your child lie in the center of a sturdy blanket. Two adults each hold two corners and gently lift and swing back and forth. Sing songs while swinging. This provides wonderful vestibular input. Always keep swings low and gentle.",
+    "variations": [
+      "Swing faster or slower based on child's preference.",
+      "Add gentle bouncing motions.",
+      "Count swings together."
+    ]
+  },
+  {
+    "activity_name": "Story Stone Telling",
+    "activity_category": "cognitive",
+    "materials": [
+      "smooth stones",
+      "acrylic paint or paint markers",
+      "clear sealant",
+      "basket or bag"
+    ],
+    "age_range": {
+      "min": 4,
+      "max": 7
+    },
+    "duration_minutes": 30,
+    "prep_time_minutes": 20,
+    "description": "Children draw or select story stones and use them to create imaginative tales.",
+    "parent_instruction": "Paint simple images on stones: sun, tree, house, animals, people, vehicles. Once dry, seal with clear coat. Place stones in a bag. Have your child pull out 3-5 stones and create a story using all the images. Take turns adding to each other's stories.",
+    "variations": [
+      "Create themed stone sets like fairy tales or space.",
+      "Use stones to retell favorite books.",
+      "Pull stones one at a time to build surprise stories."
+    ]
+  }
+]

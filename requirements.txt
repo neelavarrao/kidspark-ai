@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+supabase
+python-dotenv
+jinja2
+pubnub
+openai
+requests
+PyGithub
+langchain_mcp_adapters
+langchain==1.0.5
+langchain-openai==1.0.2
+langgraph==1.0.3
+dspy-ai
+email-validator
+python-multipart
+PyJWT

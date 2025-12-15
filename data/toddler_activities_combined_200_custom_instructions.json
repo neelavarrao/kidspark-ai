@@ -1,0 +1,4194 @@
+[
+  {
+    "activity_name": "Cause Effect with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "practical_life"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Demonstrate how the materials (stickers, paper) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Creativity with Bottles",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bottles",
+      "rice",
+      "beans"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "observation"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bottles, rice, beans. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Fine Motor with Water",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "water",
+      "brush"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "fine_motor",
+      "coordination"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: water, brush. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Fine Motor with Felt Shapes",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "felt shapes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "fine_motor",
+      "color_recognition"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Place felt shapes on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Rhythm with Yarn",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "yarn",
+      "cardboard"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "color_recognition"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Set out yarn, cardboard within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Spatial Awareness with Rice",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "spatial_awareness",
+      "sorting"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Creativity with Chalk",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "chalk"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "fine_motor"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Place chalk on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Observation with Bottles",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bottles",
+      "rice",
+      "beans"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "observation",
+      "spatial_awareness"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bottles, rice, beans. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Coordination with Paint",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "coordination",
+      "color_recognition"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Set out paint, brushes on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Gross Motor with Cups",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "cups",
+      "pitchers",
+      "water"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "gross_motor",
+      "sensory"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cups, pitchers, water. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Observation with Cups",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "cups",
+      "pitchers",
+      "water"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "observation",
+      "creativity"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cups, pitchers, water. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Rhythm with Felt Shapes",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "felt shapes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "sensory"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: felt shapes. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Bottles",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bottles",
+      "rice",
+      "beans"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "problem_solving",
+      "sorting"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bottles, rice, beans. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Fine Motor with Paint",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "fine_motor",
+      "rhythm"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Place paint, brushes on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Practical Life with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "practical_life",
+      "sensory"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: stickers, paper. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sensory with Balls",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "balls",
+      "ramp"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sensory",
+      "problem_solving"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: balls, ramp. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Rice",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sorting",
+      "creativity"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Gross Motor with Rice",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "gross_motor",
+      "problem_solving"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Cause Effect with Bubbles",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bubbles"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "gross_motor"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: bubbles. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Gross Motor with Water",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "water",
+      "brush"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "gross_motor",
+      "fine_motor"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: water, brush. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Pom-Poms",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pom-poms",
+      "bowls",
+      "tongs"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "practical_life"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Set out pom-poms, bowls, tongs within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Cause Effect with Felt Shapes",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "felt shapes"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "coordination"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Demonstrate how the materials (felt shapes) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Balance with Play Dough",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "play dough"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "balance",
+      "rhythm"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Set out play dough within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Practical Life with Pom-Poms",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pom-poms",
+      "bowls",
+      "tongs"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "practical_life",
+      "sensory"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: pom-poms, bowls, tongs. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Cause Effect with Rice",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "gross_motor"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Rhythm with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "observation"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Set out stickers, paper within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Sorting with Nature Items",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "nature items"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "cause_effect"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Spread out nature items in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Balance with Chalk",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "chalk"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "balance",
+      "gross_motor"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: chalk. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Practical Life with Stickers 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "practical_life",
+      "coordination"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Set out stickers, paper within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Coordination with Bubbles",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bubbles"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "sorting"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Spread out bubbles in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Practical Life with Rice",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "practical_life",
+      "cause_effect"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "creativity"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Set out stickers, paper on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Observation with Chalk",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "chalk"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "observation",
+      "balance"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Set out chalk within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Fine Motor with Felt Shapes 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "felt shapes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "fine_motor",
+      "observation"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Place felt shapes on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Spatial Awareness with Yarn",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "yarn",
+      "cardboard"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "spatial_awareness",
+      "rhythm"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Set out yarn, cardboard within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Fine Motor with Blocks",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "blocks"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "problem_solving"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Place blocks on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Rhythm with Chalk",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "chalk"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "coordination"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Set out chalk within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Problem Solving with Blocks",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "blocks"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "rhythm"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Set out blocks within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Rhythm with Paint",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "balance"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Set out paint, brushes on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Creativity with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "gross_motor"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: stickers, paper. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Sensory with Water",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "water",
+      "brush"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sensory",
+      "sorting"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: water, brush. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Creativity with Paint",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "coordination"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Set out paint, brushes on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Coordination with Chalk",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "chalk"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "problem_solving"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Set out chalk within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Fine Motor with Water 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "water",
+      "brush"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "observation"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: water, brush. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Coordination with Play Dough",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "play dough"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "sorting"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Spread out play dough in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Problem Solving with Pom-Poms 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pom-poms",
+      "bowls",
+      "tongs"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "cause_effect"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Demonstrate how the materials (pom-poms, bowls, tongs) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Sorting with Rice 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "color_recognition"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Coordination with Paint 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "coordination",
+      "cause_effect"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Set out paint, brushes on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Problem Solving with Balls",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "balls",
+      "ramp"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "fine_motor"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Place balls, ramp on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Coordination with Yarn",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "yarn",
+      "cardboard"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "balance"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Set out yarn, cardboard within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Fine Motor with Nature Items",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "nature items"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "fine_motor",
+      "practical_life"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Place nature items on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Balance with Pom-Poms",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pom-poms",
+      "bowls",
+      "tongs"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "balance",
+      "creativity"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Set out pom-poms, bowls, tongs on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Spatial Awareness with Rice 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "spatial_awareness",
+      "rhythm"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Cups",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "cups",
+      "pitchers",
+      "water"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "coordination"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cups, pitchers, water. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Blocks 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "blocks"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "spatial_awareness"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Set out blocks within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Sensory with Leaves",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "leaves",
+      "crayons",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "sorting"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: leaves, crayons, paper. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sensory with Blocks",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "blocks"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sensory",
+      "cause_effect"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: blocks. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Balls",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "balls",
+      "ramp"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "fine_motor"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Place balls, ramp on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Gross Motor with Bottles",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bottles",
+      "rice",
+      "beans"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "gross_motor",
+      "color_recognition"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bottles, rice, beans. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "color_recognition"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Set out stickers, paper within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Gross Motor with Blocks",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "blocks"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "gross_motor",
+      "sorting"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: blocks. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Creativity with Leaves",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "leaves",
+      "crayons",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "balance"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Set out leaves, crayons, paper on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Rhythm with Nature Items",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "nature items"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "color_recognition"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Set out nature items within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Practical Life with Bubbles",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bubbles"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "practical_life",
+      "problem_solving"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Set out bubbles within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Spatial Awareness with Bubbles",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bubbles"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "fine_motor"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Place bubbles on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Color Recognition with Pom-Poms",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pom-poms",
+      "bowls",
+      "tongs"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "problem_solving"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Set out pom-poms, bowls, tongs within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Color Recognition with Cups",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "cups",
+      "pitchers",
+      "water"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "color_recognition",
+      "creativity"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cups, pitchers, water. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sensory with Paint",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sensory",
+      "sorting"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: paint, brushes. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Balance with Bubbles",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bubbles"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "balance",
+      "practical_life"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Set out bubbles within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Practical Life with Nature Items",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "nature items"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "practical_life",
+      "cause_effect"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Demonstrate how the materials (nature items) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Sorting with Blocks",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "blocks"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "problem_solving"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Spread out blocks in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Problem Solving with Play Dough",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "play dough"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "creativity"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Set out play dough on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Cause Effect with Bottles",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bottles",
+      "rice",
+      "beans"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "creativity"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bottles, rice, beans. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Cause Effect with Felt Shapes 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "felt shapes"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "problem_solving"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Demonstrate how the materials (felt shapes) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Balance with Bubbles 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bubbles"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "balance",
+      "creativity"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Set out bubbles on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Cause Effect with Bottles 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bottles",
+      "rice",
+      "beans"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "creativity"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bottles, rice, beans. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Yarn",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "yarn",
+      "cardboard"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "cause_effect"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Demonstrate how the materials (yarn, cardboard) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Spatial Awareness with Water",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "water",
+      "brush"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "sensory"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: water, brush. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Rhythm with Leaves",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "leaves",
+      "crayons",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "sensory"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: leaves, crayons, paper. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Observation with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "observation",
+      "problem_solving"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Set out stickers, paper within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Balance with Felt Shapes",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "felt shapes"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "balance",
+      "coordination"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Set out felt shapes within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Spatial Awareness with Stickers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "fine_motor"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Place stickers, paper on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Balance with Leaves",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "leaves",
+      "crayons",
+      "paper"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "balance",
+      "color_recognition"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Set out leaves, crayons, paper on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Color Recognition with Leaves",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "leaves",
+      "crayons",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "rhythm"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Set out leaves, crayons, paper on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Cause Effect with Pom-Poms",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pom-poms",
+      "bowls",
+      "tongs"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "rhythm"
+    ],
+    "description": "Supports fine motor development through manipulation.",
+    "parent_instruction": "Demonstrate how the materials (pom-poms, bowls, tongs) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Sensory with Bubbles",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bubbles"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "practical_life"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bubbles. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Nature Items 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "nature items"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "color_recognition"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Spread out nature items in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Creativity with Play Dough",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "play dough"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "observation"
+    ],
+    "description": "Encourages pretend play and imagination.",
+    "parent_instruction": "Set out play dough on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Observation with Stickers 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "stickers",
+      "paper"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "observation",
+      "practical_life"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Set out stickers, paper within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Coordination with Bottles",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bottles",
+      "rice",
+      "beans"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "creativity"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bottles, rice, beans. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Coordination with Leaves",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "leaves",
+      "crayons",
+      "paper"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "sensory"
+    ],
+    "description": "A simple sensory activity for curiosity and discovery.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: leaves, crayons, paper. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Cups",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "cups",
+      "pitchers",
+      "water"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "sensory"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cups, pitchers, water. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Spatial Awareness with Pom-Poms",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pom-poms",
+      "bowls",
+      "tongs"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "spatial_awareness",
+      "practical_life"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Set out pom-poms, bowls, tongs within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Fine Motor with Rice",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "rice",
+      "containers",
+      "scoops"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "rhythm"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: rice, containers, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Creativity with Blocks",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "blocks"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "color_recognition"
+    ],
+    "description": "Toddlers engage in creative, open-ended play.",
+    "parent_instruction": "Set out blocks on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Observation with Paint",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "observation",
+      "creativity"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Set out paint, brushes on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Color Recognition with Water",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "water",
+      "brush"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "color_recognition",
+      "fine_motor"
+    ],
+    "description": "A fun hands-on activity encouraging exploration.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: water, brush. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Creativity with Water",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "water",
+      "brush"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "gross_motor"
+    ],
+    "description": "A calm activity that promotes focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: water, brush. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Felt Shapes",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "felt shapes"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sorting",
+      "sensory"
+    ],
+    "description": "Kids practice coordination and movement.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: felt shapes. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sensory with Paint 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paint",
+      "brushes"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "sorting"
+    ],
+    "description": "Helps toddlers explore textures and colors.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: paint, brushes. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Practical Life with Buttons",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "practical_life",
+      "gross_motor"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: buttons, cups. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Spatial Awareness with Buttons",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "sensory"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: buttons, cups. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Fine Motor with Feathers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "problem_solving"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Place feathers, glue on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Sorting with Fabric Scraps",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sorting",
+      "practical_life"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Spread out fabric scraps in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Rhythm with Magnets",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "magnets",
+      "metal tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "practical_life"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out magnets, metal tray within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Practical Life with Sponges",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "practical_life",
+      "creativity"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Spatial Awareness with Bird Seed",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bird seed",
+      "scoops"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "practical_life"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bird seed, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Coordination with Cotton Balls",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "cotton balls",
+      "tongs"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "gross_motor"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cotton balls, tongs. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Rhythm with Feathers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "coordination"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Set out feathers, glue within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Spatial Awareness with Fabric Scraps",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "color_recognition"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Set out fabric scraps within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Creativity with Feathers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "sensory"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: feathers, glue. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Sponges",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sorting",
+      "sensory"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sensory with Pots",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pots",
+      "wooden spoons"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sensory",
+      "sorting"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: pots, wooden spoons. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Gross Motor with Buttons",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "gross_motor",
+      "rhythm"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: buttons, cups. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Rhythm with Bird Seed",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bird seed",
+      "scoops"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "gross_motor"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bird seed, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Coordination with Paper Tubes",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paper tubes",
+      "cars"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "coordination",
+      "creativity"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Set out paper tubes, cars on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Fine Motor with Buttons",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "color_recognition"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Place buttons, cups on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Fine Motor with Buttons 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "practical_life"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Place buttons, cups on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Cause Effect with Pots",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pots",
+      "wooden spoons"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "coordination"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Demonstrate how the materials (pots, wooden spoons) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Coordination with Flashcards",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "flashcards"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "coordination",
+      "sorting"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Spread out flashcards in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Rhythm with Foam Letters",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "foam letters"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "cause_effect"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Demonstrate how the materials (foam letters) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Spatial Awareness with Large Beads",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "large beads",
+      "string"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "problem_solving"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Set out large beads, string within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Creativity with Paper Tubes",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "paper tubes",
+      "cars"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "sensory"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: paper tubes, cars. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Coordination with Toy Animals",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "toy animals",
+      "bins"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "coordination",
+      "cause_effect"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Demonstrate how the materials (toy animals, bins) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Color Recognition with Sponges",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "color_recognition",
+      "observation"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Creativity with Foam Letters",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "foam letters"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "practical_life"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out foam letters on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Problem Solving with Magnets",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "magnets",
+      "metal tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "problem_solving",
+      "coordination"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Set out magnets, metal tray within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Sensory with Toy Animals",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "toy animals",
+      "bins"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "creativity"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: toy animals, bins. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Toy Animals",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "toy animals",
+      "bins"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "balance"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Set out toy animals, bins within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Balance with Paper Tubes",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paper tubes",
+      "cars"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "balance",
+      "observation"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Set out paper tubes, cars within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Spatial Awareness with Bird Seed 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bird seed",
+      "scoops"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "rhythm"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bird seed, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Sponges",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "problem_solving",
+      "fine_motor"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Creativity with Feathers 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "balance"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Set out feathers, glue on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Sensory with Buttons",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "balance"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: buttons, cups. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Practical Life with Buttons 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "practical_life",
+      "balance"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out buttons, cups within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Spatial Awareness with Foam Letters",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "foam letters"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "spatial_awareness",
+      "fine_motor"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Place foam letters on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Creativity with Sponges",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "gross_motor"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Magnets",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "magnets",
+      "metal tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "creativity"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Set out magnets, metal tray on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Practical Life with Mud",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "mud",
+      "buckets"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "practical_life",
+      "gross_motor"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: mud, buckets. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Cause Effect with Sponges",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "coordination"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Color Recognition with Cotton Balls",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "cotton balls",
+      "tongs"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "rhythm"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cotton balls, tongs. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Cause Effect with Pots 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pots",
+      "wooden spoons"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "creativity"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out pots, wooden spoons on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Sorting with Pipe Cleaners",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pipe cleaners",
+      "colander"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sorting",
+      "balance"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Spread out pipe cleaners, colander in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Rhythm with Sponges",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "balance"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Cause Effect with Large Beads",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "large beads",
+      "string"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "coordination"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Demonstrate how the materials (large beads, string) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Color Recognition with Fabric Scraps",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "coordination"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Set out fabric scraps within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Fine Motor with Pots",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pots",
+      "wooden spoons"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "fine_motor",
+      "sensory"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: pots, wooden spoons. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Creativity with Pipe Cleaners",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pipe cleaners",
+      "colander"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "cause_effect"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Set out pipe cleaners, colander on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Fine Motor with Magnets",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "magnets",
+      "metal tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "balance"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Place magnets, metal tray on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Color Recognition with Toy Animals",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "toy animals",
+      "bins"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "balance"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Set out toy animals, bins within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Cause Effect with Sponges 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "problem_solving"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Bird Seed",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "bird seed",
+      "scoops"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "practical_life"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bird seed, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Practical Life with Pots",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pots",
+      "wooden spoons"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "practical_life",
+      "sensory"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: pots, wooden spoons. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Observation with Sponges",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "observation",
+      "creativity"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Color Recognition with Flashcards",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "flashcards"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "color_recognition",
+      "rhythm"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Set out flashcards within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Cause Effect with Sponges 3",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "rhythm"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Sorting with Flashcards",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "flashcards"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sorting",
+      "fine_motor"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Place flashcards on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Spatial Awareness with Pipe Cleaners",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pipe cleaners",
+      "colander"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "spatial_awareness",
+      "gross_motor"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: pipe cleaners, colander. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Cause Effect with Mud",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "mud",
+      "buckets"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "color_recognition"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: mud, buckets. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Spatial Awareness with Flashcards",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "flashcards"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "spatial_awareness",
+      "cause_effect"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Demonstrate how the materials (flashcards) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Color Recognition with Balls",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "balls",
+      "baskets"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "problem_solving"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Set out balls, baskets within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Sensory with Sponges",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "gross_motor"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Cause Effect with Feathers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "coordination"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Demonstrate how the materials (feathers, glue) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Sorting with Toy Animals",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "toy animals",
+      "bins"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sorting",
+      "rhythm"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Spread out toy animals, bins in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Problem Solving with Buttons",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "problem_solving",
+      "rhythm"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Set out buttons, cups within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Coordination with Buttons",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "coordination",
+      "observation"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out buttons, cups within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Creativity with Pipe Cleaners 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "pipe cleaners",
+      "colander"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "balance"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out pipe cleaners, colander on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Color Recognition with Feathers",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "gross_motor"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: feathers, glue. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Sensory with Fabric Scraps",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "problem_solving"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: fabric scraps. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Gross Motor with Paper Tubes",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paper tubes",
+      "cars"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "gross_motor",
+      "coordination"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: paper tubes, cars. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Sensory with Balls 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "balls",
+      "baskets"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sensory",
+      "observation"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: balls, baskets. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Practical Life with Fabric Scraps",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "practical_life",
+      "creativity"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Set out fabric scraps on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Coordination with Toy Animals 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "toy animals",
+      "bins"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "coordination",
+      "problem_solving"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Set out toy animals, bins within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Rhythm with Paper Tubes",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paper tubes",
+      "cars"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "cause_effect"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Demonstrate how the materials (paper tubes, cars) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Rhythm with Feathers 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "cause_effect"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Demonstrate how the materials (feathers, glue) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Coordination with Paper Tubes 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paper tubes",
+      "cars"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "coordination",
+      "fine_motor"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Place paper tubes, cars on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  },
+  {
+    "activity_name": "Observation with Large Beads",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "large beads",
+      "string"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "observation",
+      "problem_solving"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Set out large beads, string within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Sensory with Pipe Cleaners",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pipe cleaners",
+      "colander"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sensory",
+      "creativity"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: pipe cleaners, colander. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Observation with Fabric Scraps",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "observation",
+      "balance"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Set out fabric scraps within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Rhythm with Sponges 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "sponges",
+      "water",
+      "tray"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "balance"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: sponges, water, tray. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Fine Motor with Cotton Balls",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "cotton balls",
+      "tongs"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "fine_motor",
+      "cause_effect"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: cotton balls, tongs. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Practical Life with Magnets",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "magnets",
+      "metal tray"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "practical_life",
+      "coordination"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Set out magnets, metal tray within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Sensory with Buttons 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "sensory",
+      "fine_motor"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: buttons, cups. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Rhythm with Fabric Scraps",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "none",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "spatial_awareness"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out fabric scraps within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Cause Effect with Large Beads 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "large beads",
+      "string"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "observation"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Demonstrate how the materials (large beads, string) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Spatial Awareness with Foam Letters 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "foam letters"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "practical_life"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Set out foam letters within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Rhythm with Bird Seed 2",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "bird seed",
+      "scoops"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "rhythm",
+      "gross_motor"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: bird seed, scoops. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Spatial Awareness with Buttons 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "spatial_awareness",
+      "sensory"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Prepare a shallow bin and pour in the materials: buttons, cups. Show your toddler how to touch, scoop, squeeze, or pour. Encourage them to explore textures and sounds. Talk about how it feels\u2014soft, rough, warm, cool. Stay close to ensure items stay in the play area."
+  },
+  {
+    "activity_name": "Problem Solving with Feathers",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "problem_solving",
+      "sorting"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Spread out feathers, glue in small groups. Show your toddler how to sort by color, shape, or size. Encourage them to place items into matching piles or containers. Offer simple prompts like 'Can you find another one like this?' Keep the atmosphere playful and low-pressure."
+  },
+  {
+    "activity_name": "Observation with Foam Letters",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "foam letters"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "observation",
+      "rhythm"
+    ],
+    "description": "Supports early learning through guided interaction.",
+    "parent_instruction": "Set out foam letters within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Creativity with Paper Tubes 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "paper tubes",
+      "cars"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "creativity",
+      "balance"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Set out paper tubes, cars on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Color Recognition with Buttons",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "color_recognition",
+      "rhythm"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Set out buttons, cups within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Rhythm with Buttons",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "none",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "buttons",
+      "cups"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "rhythm",
+      "coordination"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Set out buttons, cups within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Sorting with Balls 2",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "medium",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "balls",
+      "baskets"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "sorting",
+      "creativity"
+    ],
+    "description": "Helps children build confidence through self-directed play.",
+    "parent_instruction": "Set out balls, baskets on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Balance with Feathers",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "feathers",
+      "glue"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "balance",
+      "problem_solving"
+    ],
+    "description": "Toddlers explore new textures and actions safely.",
+    "parent_instruction": "Set out feathers, glue within reach. Show the basic action once, then invite your toddler to explore. Follow their lead\u2014support when needed, step back when they\u2019re confident. Talk with them about what they are doing to build language and connection."
+  },
+  {
+    "activity_name": "Cause Effect with Balls",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "low",
+    "indoor_outdoor": "indoor",
+    "materials": [
+      "balls",
+      "baskets"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "cause_effect",
+      "practical_life"
+    ],
+    "description": "A calming activity that increases focus.",
+    "parent_instruction": "Demonstrate how the materials (balls, baskets) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Cause Effect with Pots 3",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 20,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pots",
+      "wooden spoons"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "cause_effect",
+      "balance"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Demonstrate how the materials (pots, wooden spoons) create an outcome\u2014rolling, bouncing, dropping, sticking. Invite your toddler to try and observe what happens. Ask questions like 'What do you think will happen if you try this?' Celebrate discoveries and encourage experiments."
+  },
+  {
+    "activity_name": "Creativity with Pipe Cleaners 3",
+    "age_range": {
+      "min": 1,
+      "max": 4
+    },
+    "duration_minutes": 25,
+    "mess_level": "low",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "pipe cleaners",
+      "colander"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "creativity",
+      "observation"
+    ],
+    "description": "Encourages imagination through tactile play.",
+    "parent_instruction": "Set out pipe cleaners, colander on a protected surface. Show a simple artistic step\u2014pressing paint, rubbing crayons, sticking shapes. Encourage your toddler to experiment freely. Avoid correcting their choices; focus on the process. Talk about colors, lines, and shapes they create."
+  },
+  {
+    "activity_name": "Gross Motor with Fabric Scraps",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 10,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "fabric scraps"
+    ],
+    "supervision_level": "light",
+    "skills_developed": [
+      "gross_motor",
+      "observation"
+    ],
+    "description": "A hands-on exploration that builds motor skills.",
+    "parent_instruction": "Create a safe open space. Introduce the materials: fabric scraps. Show the big movement first\u2014rolling, tossing, climbing, chasing. Invite your toddler to copy you. Allow them to repeat movements many times. Be close by for safety while encouraging free movement."
+  },
+  {
+    "activity_name": "Observation with Flashcards",
+    "age_range": {
+      "min": 2,
+      "max": 4
+    },
+    "duration_minutes": 15,
+    "mess_level": "high",
+    "indoor_outdoor": "outdoor",
+    "materials": [
+      "flashcards"
+    ],
+    "supervision_level": "active",
+    "skills_developed": [
+      "observation",
+      "fine_motor"
+    ],
+    "description": "Promotes creativity while strengthening coordination.",
+    "parent_instruction": "Place flashcards on a table. Demonstrate the small-hand movements needed\u2014pinching, threading, placing, squeezing. Let your toddler try at their own pace. Encourage slow, intentional movements and celebrate each attempt. Offer help only when necessary to avoid frustration."
+  }
+]

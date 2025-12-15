@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidSpark AI - System Architecture</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.1rem; opacity: 0.9; }
+        .diagram-container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+        }
+        #architecture-diagram { width: 100%; min-height: 800px; }
+        .legend-section {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .legend-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .legend-color {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+        .legend-text h4 { color: #333; margin-bottom: 5px; }
+        .legend-text p { color: #666; font-size: 0.9rem; }
+        .guardrail { background: #FF6B6B; }
+        .agent { background: #4ECDC4; }
+        .storage { background: #45B7D1; }
+        .llm { background: #96CEB4; }
+        .monitor { background: #FFEAA7; }
+        .automation { background: #DDA0DD; }
+        .future { background: #E0E0E0; border: 2px dashed #999; }
+        .fallback { background: #FFA500; }
+        .reliability { background: #9B59B6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧒 KidSpark AI - System Architecture</h1>
+            <p>Intelligent Parenting Assistant | AI Engineering Capstone Project</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">Version 2.0 - With Reliability Patterns, Rate Limiting, and Safe Fallbacks</p>
+        </header>
+
+        <div class="diagram-container">
+            <div id="architecture-diagram">
+                <pre class="mermaid">
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4A90A4'}}}%%
+flowchart TB
+    subgraph UserLayer["👨‍👩‍👧 User Interface Layer"]
+        WebApp["🌐 Web App (Next.js)"]
+        FutureMobile["📱 Mobile (Future)"]
+        FutureVoice["🎤 Voice (Future)"]
+    end
+
+    subgraph Gateway["🚪 API Gateway"]
+        APIGateway["JWT Auth"]
+        RateLimiter["Rate Limiter<br/>(Redis per-IP/user)"]
+    end
+
+    subgraph AppServer["⚡ Application Server"]
+        FastAPI["FastAPI<br/>(Business Logic)"]
+    end
+
+    subgraph InputGuardrails["🛡️ Input Guardrails"]
+        LiteFilter["Lite Safety<br/>(Keywords)"]
+        PII["PII Redaction"]
+        ToxicInput["Toxic Filter"]
+        AgeVerify["Age Check"]
+        InputSanitize["Sanitization"]
+    end
+
+    subgraph OutputGuardrails["🛡️ Output Guardrails"]
+        ContentSafety["Child Safety"]
+        FactCheck["Fact Check"]
+        ToneCheck["Readability"]
+        HallucinationDetect["Hallucination<br/>Detection"]
+    end
+
+    SafeFallback["⚠️ Safe Fallback<br/>(Canned Response)"]
+
+    subgraph Orchestration["🤖 Agent Orchestration"]
+        Router["Intent Router"]
+        ActivityAgent["🎨 Activity Agent"]
+        StoryAgent["📖 Story Agent"]
+        WhyAgent["❓ Why Agent"]
+    end
+
+    subgraph RAG["📚 RAG Pipeline"]
+        QueryProc["Query Processor"]
+        HybridSearch["Hybrid Search"]
+        Reranker["Reranker"]
+        RelevanceCheck["Relevance ≥0.75"]
+        ChunkMgr["Chunk Manager"]
+        NoRAGFallback["No-RAG Fallback"]
+    end
+
+    subgraph VectorDB["🗄️ Supabase pgvector"]
+        ActivitiesIdx["activities (500+)"]
+        StoriesIdx["stories (10K+)"]
+        KnowledgeIdx["knowledge (150K+)"]
+    end
+
+    subgraph LLM["🧠 LLM Layer"]
+        LLMRouter["LLM Router<br/>(Circuit Breaker)"]
+        RetryLogic["Retry (3x, 30s)"]
+        OpenAI["OpenAI GPT-4"]
+        Fallback["Claude/Local"]
+    end
+
+    subgraph Storage["💾 Data Layer"]
+        SupabaseDB["Supabase PostgreSQL<br/>(Users, Audit Logs)"]
+        Redis["Redis<br/>(Cache + Celery Broker)"]
+        S3["S3/GCS"]
+    end
+
+    subgraph Workers["⚙️ Celery Workers"]
+        EmbeddingTask["Embeddings"]
+        EvalTask["Evaluation"]
+        AuditTask["Audit Logger"]
+    end
+
+    subgraph Monitoring["📊 Monitoring"]
+        Prometheus["Prometheus"]
+        Grafana["Grafana SLOs"]
+        Langfuse["Langfuse"]
+        Alerting["AlertManager<br/>(Slack/PagerDuty)"]
+    end
+
+    subgraph N8N["🔄 N8N Workflows"]
+        DailyDigest["Daily Digest"]
+        ContentRefresh["Content Refresh"]
+        AlertWorkflow["Safety Alerts"]
+        SendGrid["SendGrid"]
+        SlackNotify["Slack"]
+    end
+
+    subgraph MCP["🔌 MCP Connectors"]
+        WeatherMCP["Weather API"]
+        CalendarMCP["Calendar"]
+    end
+
+    %% Request Flow
+    WebApp --> APIGateway
+    FutureMobile -.-> APIGateway
+    FutureVoice -.-> APIGateway
+    APIGateway --> RateLimiter
+    RateLimiter --> FastAPI
+    FastAPI --> LiteFilter
+    LiteFilter --> PII --> ToxicInput --> AgeVerify --> InputSanitize
+    InputSanitize --> Router
+
+    %% Fallback paths
+    ToxicInput -.->|blocked| SafeFallback
+    ContentSafety -.->|unsafe| SafeFallback
+    HallucinationDetect -.->|hallucination| SafeFallback
+    SafeFallback -.-> FastAPI
+
+    %% Agent routing
+    Router --> ActivityAgent & StoryAgent & WhyAgent
+    ActivityAgent & StoryAgent & WhyAgent --> QueryProc
+
+    %% RAG flow
+    QueryProc --> HybridSearch --> Reranker --> RelevanceCheck
+    RelevanceCheck -->|pass| ChunkMgr
+    RelevanceCheck -->|fail| NoRAGFallback --> SafeFallback
+    HybridSearch --> ActivitiesIdx & StoriesIdx & KnowledgeIdx
+
+    %% LLM flow
+    ChunkMgr --> LLMRouter --> RetryLogic
+    RetryLogic --> OpenAI
+    RetryLogic -->|circuit open| Fallback
+    OpenAI & Fallback --> ContentSafety
+    ContentSafety --> FactCheck --> ToneCheck --> HallucinationDetect
+
+    %% Response egress
+    HallucinationDetect -->|passed| FastAPI --> APIGateway --> WebApp
+
+    %% Data connections
+    Router --> SupabaseDB & Redis
+    StoryAgent --> S3
+    FastAPI --> Redis --> EmbeddingTask & EvalTask & AuditTask
+    AuditTask --> SupabaseDB
+
+    %% Monitoring
+    Prometheus --> Grafana --> Alerting --> SlackNotify
+
+    %% N8N
+    DailyDigest --> SendGrid
+    ContentRefresh --> ActivitiesIdx
+    AlertWorkflow --> SlackNotify & SupabaseDB
+
+    %% MCP
+    ActivityAgent --> WeatherMCP & CalendarMCP
+
+    %% Styles
+    classDef guardrail fill:#FF6B6B,stroke:#C92A2A,color:#fff
+    classDef agent fill:#4ECDC4,stroke:#1A9089,color:#fff
+    classDef storage fill:#45B7D1,stroke:#1A7A8C,color:#fff
+    classDef llm fill:#96CEB4,stroke:#5D9B7B,color:#fff
+    classDef monitor fill:#FFEAA7,stroke:#D4AC0D,color:#333
+    classDef automation fill:#DDA0DD,stroke:#8B008B,color:#333
+    classDef future fill:#E0E0E0,stroke:#999,color:#666,stroke-dasharray: 5 5
+    classDef fallback fill:#FFA500,stroke:#CC7000,color:#fff
+    classDef reliability fill:#9B59B6,stroke:#6C3483,color:#fff
+
+    class LiteFilter,PII,ToxicInput,AgeVerify,InputSanitize,ContentSafety,FactCheck,ToneCheck,HallucinationDetect guardrail
+    class ActivityAgent,StoryAgent,WhyAgent,Router agent
+    class SupabaseDB,Redis,S3,ActivitiesIdx,StoriesIdx,KnowledgeIdx storage
+    class OpenAI,Fallback,LLMRouter llm
+    class Prometheus,Grafana,Langfuse,Alerting monitor
+    class DailyDigest,ContentRefresh,AlertWorkflow,SendGrid,SlackNotify automation
+    class FutureMobile,FutureVoice future
+    class SafeFallback,NoRAGFallback fallback
+    class RetryLogic,RateLimiter reliability
+                </pre>
+            </div>
+        </div>
+
+        <div class="legend-section">
+            <h2>🎨 Component Legend</h2>
+            <div class="legend-grid">
+                <div class="legend-item">
+                    <div class="legend-color guardrail"></div>
+                    <div class="legend-text">
+                        <h4>Guardrails (Red)</h4>
+                        <p>Input/output safety filters, PII detection, hallucination checks</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color agent"></div>
+                    <div class="legend-text">
+                        <h4>AI Agents (Teal)</h4>
+                        <p>Activity Suggester, Story Generator, Why Answerer</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color storage"></div>
+                    <div class="legend-text">
+                        <h4>Storage (Blue)</h4>
+                        <p>Supabase PostgreSQL + pgvector, Redis (Cache + Broker), S3</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color llm"></div>
+                    <div class="legend-text">
+                        <h4>LLM Layer (Green)</h4>
+                        <p>OpenAI GPT-4 (primary), Claude/Local (fallback)</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color monitor"></div>
+                    <div class="legend-text">
+                        <h4>Monitoring (Yellow)</h4>
+                        <p>Prometheus, Grafana SLO dashboards, Langfuse, AlertManager</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color automation"></div>
+                    <div class="legend-text">
+                        <h4>Automation (Purple)</h4>
+                        <p>N8N workflows, SendGrid emails, Slack notifications</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color fallback"></div>
+                    <div class="legend-text">
+                        <h4>Fallback Paths (Orange)</h4>
+                        <p>Safe canned responses, no-RAG fallback for low relevance</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color reliability"></div>
+                    <div class="legend-text">
+                        <h4>Reliability (Purple)</h4>
+                        <p>Rate limiting, retry logic, circuit breakers, timeouts</p>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color future"></div>
+                    <div class="legend-text">
+                        <h4>Future Enhancements (Gray Dashed)</h4>
+                        <p>Mobile app, voice interface</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true, 
+            theme: 'base',
+            securityLevel: 'loose',
+            flowchart: { 
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            }
+        });
+    </script>
+</body>
+</html>

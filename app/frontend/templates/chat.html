@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidSpark AI - Chat</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/story.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-sidebar">
+            <div class="logo">
+                <h1>KidSpark AI</h1>
+            </div>
+            <div class="user-info">
+                <span id="user-name">...</span>
+                <button id="logout-btn" class="btn-subtle">Log Out</button>
+            </div>
+        </div>
+
+        <div class="chat-main">
+            <div class="chat-header">
+                <h2>Chat with KidSpark AI</h2>
+            </div>
+
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be inserted dynamically -->
+                <div class="message assistant">
+                    <div class="message-content">
+                        <p>Hello! I'm KidSpark AI, your parenting assistant. How can I help you today?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <form id="chat-form">
+                    <input type="text" id="message-input" placeholder="Type your message..." autocomplete="off">
+                    <button type="submit" class="btn-send">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+    <script src="/static/js/story-viewer.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidSpark AI - Login</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h1>KidSpark AI</h1>
+                <p>Intelligent Parenting Assistant</p>
+            </div>
+
+            <div class="auth-form">
+                <h2>Log In</h2>
+                <div class="error-message" id="error-message"></div>
+
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Log In</button>
+                </form>
+
+                <div class="auth-links">
+                    <p>Don't have an account? <a href="/register">Register</a></p>
+                </div>
+            </div>
+
+            <div class="auth-footer">
+                <p>&copy; 2025 KidSpark AI</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/login.js"></script>
+</body>
+</html>

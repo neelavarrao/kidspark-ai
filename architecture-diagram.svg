@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1800" width="1400" height="1800">
+  <defs>
+    <style>
+      .title { font: bold 28px Arial, sans-serif; fill: #333; }
+      .subtitle { font: 16px Arial, sans-serif; fill: #666; }
+      .layer-title { font: bold 14px Arial, sans-serif; fill: #333; }
+      .component { font: 12px Arial, sans-serif; fill: #fff; }
+      .component-dark { font: 12px Arial, sans-serif; fill: #333; }
+      .label { font: 10px Arial, sans-serif; fill: #666; }
+      .future-label { font: 10px Arial, sans-serif; fill: #999; font-style: italic; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+    <marker id="arrowhead-dashed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#999"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="1800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" text-anchor="middle" class="title">🧒 KidSpark AI - System Architecture</text>
+  <text x="700" y="65" text-anchor="middle" class="subtitle">Intelligent Parenting Assistant | AI Engineering Capstone Project</text>
+  
+  <!-- Legend -->
+  <rect x="1050" y="85" width="320" height="200" fill="#fff" stroke="#ddd" rx="8"/>
+  <text x="1210" y="110" text-anchor="middle" class="layer-title">Legend</text>
+  <rect x="1070" y="125" width="20" height="15" fill="#FF6B6B" rx="3"/>
+  <text x="1100" y="137" class="label">Guardrails</text>
+  <rect x="1180" y="125" width="20" height="15" fill="#4ECDC4" rx="3"/>
+  <text x="1210" y="137" class="label">Agents</text>
+  <rect x="1280" y="125" width="20" height="15" fill="#45B7D1" rx="3"/>
+  <text x="1310" y="137" class="label">Storage</text>
+  <rect x="1070" y="150" width="20" height="15" fill="#96CEB4" rx="3"/>
+  <text x="1100" y="162" class="label">LLM</text>
+  <rect x="1180" y="150" width="20" height="15" fill="#FFEAA7" rx="3"/>
+  <text x="1210" y="162" class="label">Monitoring</text>
+  <rect x="1280" y="150" width="20" height="15" fill="#DDA0DD" rx="3"/>
+  <text x="1310" y="162" class="label">Automation</text>
+  <rect x="1070" y="175" width="20" height="15" fill="#FFA500" rx="3"/>
+  <text x="1100" y="187" class="label">Fallback</text>
+  <rect x="1180" y="175" width="20" height="15" fill="#9B59B6" rx="3"/>
+  <text x="1210" y="187" class="label">Reliability</text>
+  <rect x="1280" y="175" width="20" height="15" fill="#E0E0E0" stroke="#999" stroke-dasharray="3,2" rx="3"/>
+  <text x="1310" y="187" class="label">Future</text>
+  <text x="1210" y="220" text-anchor="middle" class="label">→ Request Flow</text>
+  <text x="1210" y="240" text-anchor="middle" class="future-label">--→ Fallback Path</text>
+  <text x="1210" y="260" text-anchor="middle" class="future-label">···→ Future</text>
+
+  <!-- USER INTERFACE LAYER -->
+  <rect x="50" y="90" width="950" height="70" fill="#E8F4F8" stroke="#4A90A4" rx="8"/>
+  <text x="525" y="115" text-anchor="middle" class="layer-title">👨‍👩‍👧 User Interface Layer</text>
+  <rect x="400" y="125" width="120" height="30" fill="#4A90A4" rx="5"/>
+  <text x="460" y="145" text-anchor="middle" class="component">🌐 Web App</text>
+  <rect x="540" y="125" width="100" height="30" fill="#E0E0E0" stroke="#999" stroke-dasharray="3,2" rx="5"/>
+  <text x="590" y="145" text-anchor="middle" class="component-dark">📱 Mobile</text>
+  <rect x="660" y="125" width="100" height="30" fill="#E0E0E0" stroke="#999" stroke-dasharray="3,2" rx="5"/>
+  <text x="710" y="145" text-anchor="middle" class="component-dark">🎤 Voice</text>
+  
+  <!-- Arrow -->
+  <line x1="460" y1="160" x2="460" y2="180" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- API GATEWAY LAYER -->
+  <rect x="50" y="185" width="950" height="70" fill="#E8F4F8" stroke="#4A90A4" rx="8"/>
+  <text x="525" y="210" text-anchor="middle" class="layer-title">🚪 API Gateway Layer</text>
+  <rect x="350" y="220" width="140" height="30" fill="#4A90A4" rx="5"/>
+  <text x="420" y="240" text-anchor="middle" class="component">JWT Authentication</text>
+  <rect x="510" y="220" width="160" height="30" fill="#9B59B6" rx="5"/>
+  <text x="590" y="240" text-anchor="middle" class="component">Rate Limiter (Redis)</text>
+  
+  <!-- Arrow -->
+  <line x1="460" y1="255" x2="460" y2="275" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- APPLICATION SERVER -->
+  <rect x="50" y="280" width="950" height="50" fill="#E8F4F8" stroke="#4A90A4" rx="8"/>
+  <text x="525" y="312" text-anchor="middle" class="layer-title">⚡ Application Server (FastAPI - Business Logic)</text>
+  
+  <!-- Arrow -->
+  <line x1="460" y1="330" x2="460" y2="350" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- LITE SAFETY FILTER -->
+  <rect x="200" y="355" width="600" height="40" fill="#FF6B6B" stroke="#C92A2A" rx="8"/>
+  <text x="500" y="380" text-anchor="middle" class="component">🛡️ Lite Safety Pass (Keyword/Topic Filter) - Pre-LLM, &lt;5ms</text>
+  
+  <!-- Arrow -->
+  <line x1="460" y1="395" x2="460" y2="415" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- INPUT GUARDRAILS -->
+  <rect x="50" y="420" width="950" height="80" fill="#FFE8E8" stroke="#C92A2A" rx="8"/>
+  <text x="525" y="445" text-anchor="middle" class="layer-title">🛡️ Input Guardrails</text>
+  <rect x="100" y="455" width="130" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="165" y="477" text-anchor="middle" class="component">PII Detection</text>
+  <rect x="250" y="455" width="130" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="315" y="477" text-anchor="middle" class="component">Toxic Filter</text>
+  <rect x="400" y="455" width="130" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="465" y="477" text-anchor="middle" class="component">Age Verification</text>
+  <rect x="550" y="455" width="130" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="615" y="477" text-anchor="middle" class="component">Input Sanitize</text>
+  
+  <!-- Safe Fallback (right side) -->
+  <rect x="850" y="500" width="140" height="60" fill="#FFA500" stroke="#CC7000" rx="8"/>
+  <text x="920" y="525" text-anchor="middle" class="component">⚠️ Safe Fallback</text>
+  <text x="920" y="545" text-anchor="middle" class="component">(Canned Response)</text>
+  
+  <!-- Dashed arrow from Toxic to Fallback -->
+  <path d="M 380 490 Q 600 520 850 530" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowhead-dashed)"/>
+  <text x="620" y="510" class="future-label">blocked</text>
+  
+  <!-- Arrow down -->
+  <line x1="460" y1="500" x2="460" y2="530" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- AGENT ORCHESTRATION -->
+  <rect x="50" y="535" width="750" height="100" fill="#E0F7F7" stroke="#1A9089" rx="8"/>
+  <text x="425" y="560" text-anchor="middle" class="layer-title">🤖 Agent Orchestration (LangChain/LangGraph)</text>
+  <rect x="100" y="575" width="120" height="50" fill="#4ECDC4" rx="5"/>
+  <text x="160" y="595" text-anchor="middle" class="component">Intent Router</text>
+  <text x="160" y="615" text-anchor="middle" class="component"></text>
+  <rect x="250" y="575" width="120" height="50" fill="#4ECDC4" rx="5"/>
+  <text x="310" y="595" text-anchor="middle" class="component">🎨 Activity</text>
+  <text x="310" y="612" text-anchor="middle" class="component">Agent</text>
+  <rect x="390" y="575" width="120" height="50" fill="#4ECDC4" rx="5"/>
+  <text x="450" y="595" text-anchor="middle" class="component">📖 Story</text>
+  <text x="450" y="612" text-anchor="middle" class="component">Agent</text>
+  <rect x="530" y="575" width="120" height="50" fill="#4ECDC4" rx="5"/>
+  <text x="590" y="595" text-anchor="middle" class="component">❓ Why</text>
+  <text x="590" y="612" text-anchor="middle" class="component">Agent</text>
+  <rect x="670" y="575" width="110" height="50" fill="#4ECDC4" rx="5"/>
+  <text x="725" y="600" text-anchor="middle" class="component">Context Mgr</text>
+  
+  <!-- Arrow down -->
+  <line x1="400" y1="635" x2="400" y2="665" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- RAG PIPELINE -->
+  <rect x="50" y="670" width="750" height="100" fill="#F0F8FF" stroke="#4A90A4" rx="8"/>
+  <text x="425" y="695" text-anchor="middle" class="layer-title">📚 RAG Pipeline</text>
+  <rect x="80" y="710" width="110" height="45" fill="#45B7D1" rx="5"/>
+  <text x="135" y="737" text-anchor="middle" class="component">Query Proc</text>
+  <rect x="210" y="710" width="110" height="45" fill="#45B7D1" rx="5"/>
+  <text x="265" y="737" text-anchor="middle" class="component">Hybrid Search</text>
+  <rect x="340" y="710" width="100" height="45" fill="#45B7D1" rx="5"/>
+  <text x="390" y="737" text-anchor="middle" class="component">Reranker</text>
+  <rect x="460" y="710" width="120" height="45" fill="#9B59B6" rx="5"/>
+  <text x="520" y="730" text-anchor="middle" class="component">Relevance</text>
+  <text x="520" y="747" text-anchor="middle" class="component">≥0.75</text>
+  <rect x="600" y="710" width="110" height="45" fill="#45B7D1" rx="5"/>
+  <text x="655" y="737" text-anchor="middle" class="component">Chunk Mgr</text>
+  
+  <!-- No-RAG Fallback -->
+  <rect x="730" y="710" width="100" height="45" fill="#FFA500" rx="5"/>
+  <text x="780" y="730" text-anchor="middle" class="component">No-RAG</text>
+  <text x="780" y="747" text-anchor="middle" class="component">Fallback</text>
+  
+  <!-- Dashed arrow to safe fallback -->
+  <path d="M 830 732 Q 870 650 920 560" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowhead-dashed)"/>
+  
+  <!-- Arrow down -->
+  <line x1="400" y1="770" x2="400" y2="800" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- VECTOR DATABASE -->
+  <rect x="50" y="805" width="750" height="80" fill="#E0F4FF" stroke="#1A7A8C" rx="8"/>
+  <text x="425" y="830" text-anchor="middle" class="layer-title">🗄️ Supabase pgvector (Vector Database)</text>
+  <rect x="150" y="845" width="150" height="30" fill="#45B7D1" rx="5"/>
+  <text x="225" y="865" text-anchor="middle" class="component">activities (500+)</text>
+  <rect x="325" y="845" width="150" height="30" fill="#45B7D1" rx="5"/>
+  <text x="400" y="865" text-anchor="middle" class="component">stories (10K+)</text>
+  <rect x="500" y="845" width="170" height="30" fill="#45B7D1" rx="5"/>
+  <text x="585" y="865" text-anchor="middle" class="component">knowledge (150K+)</text>
+  
+  <!-- Arrow down -->
+  <line x1="400" y1="885" x2="400" y2="915" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- LLM LAYER -->
+  <rect x="50" y="920" width="750" height="80" fill="#E8F8E8" stroke="#5D9B7B" rx="8"/>
+  <text x="425" y="945" text-anchor="middle" class="layer-title">🧠 LLM Service Layer</text>
+  <rect x="100" y="955" width="150" height="35" fill="#9B59B6" rx="5"/>
+  <text x="175" y="977" text-anchor="middle" class="component">LLM Router + Circuit Breaker</text>
+  <rect x="270" y="955" width="140" height="35" fill="#9B59B6" rx="5"/>
+  <text x="340" y="977" text-anchor="middle" class="component">Retry (3x, 30s)</text>
+  <rect x="430" y="955" width="150" height="35" fill="#96CEB4" rx="5"/>
+  <text x="505" y="977" text-anchor="middle" class="component">OpenAI GPT-4</text>
+  <rect x="600" y="955" width="130" height="35" fill="#96CEB4" rx="5"/>
+  <text x="665" y="977" text-anchor="middle" class="component">Claude/Local</text>
+  
+  <!-- Arrow down -->
+  <line x1="400" y1="1000" x2="400" y2="1030" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- OUTPUT GUARDRAILS -->
+  <rect x="50" y="1035" width="750" height="80" fill="#FFE8E8" stroke="#C92A2A" rx="8"/>
+  <text x="425" y="1060" text-anchor="middle" class="layer-title">🛡️ Output Guardrails</text>
+  <rect x="100" y="1070" width="130" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="165" y="1092" text-anchor="middle" class="component">Child Safety</text>
+  <rect x="250" y="1070" width="130" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="315" y="1092" text-anchor="middle" class="component">Fact Check</text>
+  <rect x="400" y="1070" width="130" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="465" y="1092" text-anchor="middle" class="component">Readability</text>
+  <rect x="550" y="1070" width="150" height="35" fill="#FF6B6B" rx="5"/>
+  <text x="625" y="1092" text-anchor="middle" class="component">Hallucination Det.</text>
+  
+  <!-- Dashed arrow to fallback -->
+  <path d="M 700 1087 Q 800 1000 920 560" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowhead-dashed)"/>
+  <text x="760" y="1050" class="future-label">unsafe</text>
+  
+  <!-- Arrow back up through FastAPI -->
+  <line x1="400" y1="1115" x2="400" y2="1145" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="500" y="1140" class="layer-title">→ FastAPI → API Gateway → User</text>
+
+  <!-- DATA LAYER (right side) -->
+  <rect x="850" y="600" width="180" height="180" fill="#E0F4FF" stroke="#1A7A8C" rx="8"/>
+  <text x="940" y="625" text-anchor="middle" class="layer-title">💾 Data Layer</text>
+  <rect x="865" y="640" width="150" height="35" fill="#45B7D1" rx="5"/>
+  <text x="940" y="655" text-anchor="middle" class="component">Supabase PostgreSQL</text>
+  <text x="940" y="670" text-anchor="middle" class="component">(Users, Audit Logs)</text>
+  <rect x="865" y="685" width="150" height="35" fill="#45B7D1" rx="5"/>
+  <text x="940" y="700" text-anchor="middle" class="component">Redis</text>
+  <text x="940" y="715" text-anchor="middle" class="component">(Cache + Celery Broker)</text>
+  <rect x="865" y="730" width="150" height="35" fill="#45B7D1" rx="5"/>
+  <text x="940" y="752" text-anchor="middle" class="component">S3/GCS (Media)</text>
+
+  <!-- WORKERS (right side) -->
+  <rect x="850" y="800" width="180" height="130" fill="#F5E6F5" stroke="#8B008B" rx="8"/>
+  <text x="940" y="825" text-anchor="middle" class="layer-title">⚙️ Celery Workers</text>
+  <rect x="865" y="840" width="150" height="25" fill="#DDA0DD" rx="4"/>
+  <text x="940" y="858" text-anchor="middle" class="component-dark">Embedding Gen</text>
+  <rect x="865" y="870" width="150" height="25" fill="#DDA0DD" rx="4"/>
+  <text x="940" y="888" text-anchor="middle" class="component-dark">Quality Eval</text>
+  <rect x="865" y="900" width="150" height="25" fill="#DDA0DD" rx="4"/>
+  <text x="940" y="918" text-anchor="middle" class="component-dark">Audit Logger</text>
+
+  <!-- MONITORING -->
+  <rect x="850" y="950" width="180" height="130" fill="#FFF8E0" stroke="#D4AC0D" rx="8"/>
+  <text x="940" y="975" text-anchor="middle" class="layer-title">📊 Monitoring</text>
+  <rect x="865" y="990" width="150" height="25" fill="#FFEAA7" rx="4"/>
+  <text x="940" y="1008" text-anchor="middle" class="component-dark">Prometheus</text>
+  <rect x="865" y="1020" width="150" height="25" fill="#FFEAA7" rx="4"/>
+  <text x="940" y="1038" text-anchor="middle" class="component-dark">Grafana (SLOs)</text>
+  <rect x="865" y="1050" width="150" height="25" fill="#FFEAA7" rx="4"/>
+  <text x="940" y="1068" text-anchor="middle" class="component-dark">Langfuse + Alerts</text>
+
+  <!-- N8N WORKFLOWS (bottom) -->
+  <rect x="50" y="1170" width="500" height="90" fill="#F5E6F5" stroke="#8B008B" rx="8"/>
+  <text x="300" y="1195" text-anchor="middle" class="layer-title">🔄 N8N Workflow Automation</text>
+  <rect x="70" y="1210" width="130" height="35" fill="#DDA0DD" rx="5"/>
+  <text x="135" y="1232" text-anchor="middle" class="component-dark">Daily Digest</text>
+  <rect x="220" y="1210" width="130" height="35" fill="#DDA0DD" rx="5"/>
+  <text x="285" y="1232" text-anchor="middle" class="component-dark">Content Refresh</text>
+  <rect x="370" y="1210" width="130" height="35" fill="#DDA0DD" rx="5"/>
+  <text x="435" y="1232" text-anchor="middle" class="component-dark">Safety Alerts</text>
+  
+  <!-- Notification targets -->
+  <text x="135" y="1260" text-anchor="middle" class="label">→ SendGrid</text>
+  <text x="285" y="1260" text-anchor="middle" class="label">→ Supabase</text>
+  <text x="435" y="1260" text-anchor="middle" class="label">→ Slack</text>
+
+  <!-- MCP CONNECTORS -->
+  <rect x="600" y="1170" width="200" height="90" fill="#E8F4F8" stroke="#4A90A4" rx="8"/>
+  <text x="700" y="1195" text-anchor="middle" class="layer-title">🔌 MCP Connectors</text>
+  <rect x="620" y="1210" width="80" height="35" fill="#4A90A4" rx="5"/>
+  <text x="660" y="1232" text-anchor="middle" class="component">Weather</text>
+  <rect x="710" y="1210" width="80" height="35" fill="#4A90A4" rx="5"/>
+  <text x="750" y="1232" text-anchor="middle" class="component">Calendar</text>
+  <text x="700" y="1260" text-anchor="middle" class="label">(10s timeout)</text>
+
+  <!-- Footer -->
+  <text x="700" y="1320" text-anchor="middle" class="subtitle">Version 2.0 | With Reliability Patterns, Rate Limiting, Safe Fallbacks, and SLOs</text>
+  <text x="700" y="1345" text-anchor="middle" class="label">Redis: Cache + Celery Broker | Supabase: PostgreSQL + pgvector | OpenAI GPT-4 (configurable)</text>
+</svg>

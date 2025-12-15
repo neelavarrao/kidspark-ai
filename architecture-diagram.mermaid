@@ -1,0 +1,245 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4A90A4', 'secondaryColor': '#E8F4F8', 'tertiaryColor': '#fff'}}}%%
+
+flowchart TB
+    subgraph UserLayer["👨‍👩‍👧 User Interface Layer"]
+        WebApp["🌐 Web Application<br/>(React/Next.js)"]
+        FutureMobile["📱 Mobile App<br/>(Future)"]
+        FutureVoice["🎤 Voice Interface<br/>(Future)"]
+    end
+
+    subgraph APIGateway["🚪 API Gateway Layer"]
+        Gateway["API Gateway<br/>(JWT Auth + Rate Limiting)"]
+        RateLimiter["Rate Limiter<br/>(Redis: per-IP, per-user)"]
+    end
+
+    subgraph AppServer["⚡ Application Server"]
+        FastAPI["FastAPI Server<br/>(Request Handling,<br/>Business Logic)"]
+    end
+
+    subgraph GuardrailsLayer["🛡️ GUARDRAILS LAYER"]
+        direction TB
+        
+        subgraph InputGuardrails["Input Guardrails"]
+            LiteFilter["Lite Safety Pass<br/>(Keyword/Topic Filter)"]
+            PII["PII Detection<br/>& Redaction"]
+            ToxicInput["Toxic/Inappropriate<br/>Content Filter"]
+            AgeVerify["Age Verification<br/>& Context Check"]
+            InputSanitize["Input Sanitization<br/>& Length Limits"]
+        end
+        
+        subgraph OutputGuardrails["Output Guardrails"]
+            ContentSafety["Child Safety<br/>Content Filter"]
+            FactCheck["Fact Verification<br/>& Source Check"]
+            ToneCheck["Age-Appropriate<br/>Language Checker"]
+            HallucinationDetect["Hallucination<br/>Detection (NLI)"]
+        end
+
+        SafeFallback["⚠️ Safe Fallback<br/>(Canned Response)"]
+    end
+
+    subgraph AgentOrchestrator["🤖 Agentic AI Orchestration Layer"]
+        Router["Intent Router<br/>(LangChain/LangGraph)"]
+        
+        subgraph Agents["Specialized Agents"]
+            ActivityAgent["🎨 Activity<br/>Suggester Agent"]
+            StoryAgent["📖 Bedtime Story<br/>Generator Agent"]
+            WhyAgent["❓ Why Question<br/>Answerer Agent"]
+        end
+        
+        ContextManager["Context Manager<br/>& Memory"]
+    end
+
+    subgraph RAGLayer["📚 RAG Pipeline"]
+        QueryProcessor["Query Processor<br/>& Optimizer"]
+        
+        subgraph Retrieval["Retrieval Components"]
+            HybridSearch["Hybrid Search<br/>(Semantic + BM25)"]
+            Reranker["Cross-Encoder<br/>Reranker"]
+            RelevanceCheck["Relevance Threshold<br/>(≥0.75 required)"]
+        end
+        
+        ChunkManager["Chunk Manager<br/>& Citation Tracker"]
+        NoRAGFallback["No-RAG Fallback<br/>(Low relevance path)"]
+    end
+
+    subgraph VectorDB["🗄️ Vector Database Layer"]
+        Supabase["Supabase pgvector<br/>(Vector Store)"]
+        
+        subgraph Collections["Collections/Tables"]
+            ActivitiesIdx["activities<br/>(500+ curated)"]
+            StoriesIdx["stories<br/>(10K+ templates)"]
+            KnowledgeIdx["knowledge<br/>(150K+ articles)"]
+        end
+    end
+
+    subgraph LLMLayer["🧠 LLM Service Layer"]
+        LLMRouter["LLM Router<br/>(w/ Circuit Breaker)"]
+        OpenAI["OpenAI API<br/>(Primary - GPT-4)"]
+        Fallback["Fallback LLM<br/>(Claude/Local)"]
+        RetryLogic["Retry Logic<br/>(3x, exp backoff,<br/>30s timeout)"]
+    end
+
+    subgraph DataLayer["💾 Data & Storage Layer"]
+        SupabaseDB["Supabase PostgreSQL<br/>(Users, Sessions,<br/>Audit Logs)"]
+        Redis["Redis<br/>(Cache + Celery Broker)"]
+        S3["S3/GCS<br/>(Stories, Media)"]
+    end
+
+    subgraph WorkerLayer["⚙️ Background Workers"]
+        CeleryWorker["Celery Workers<br/>(Idempotent Tasks)"]
+        
+        subgraph Tasks["Async Tasks"]
+            EmbeddingTask["Embedding<br/>Generation"]
+            EvalTask["Quality<br/>Evaluation"]
+            LogTask["Logging &<br/>Analytics"]
+            AuditTask["Safety Incident<br/>Audit Logger"]
+        end
+    end
+
+    subgraph MonitoringLayer["📊 Monitoring & Observability"]
+        Prometheus["Prometheus<br/>Metrics"]
+        Grafana["Grafana<br/>(SLO Dashboards)"]
+        Langfuse["Langfuse<br/>LLM Observability"]
+        Alerting["Alert Manager<br/>(Slack/PagerDuty)"]
+    end
+
+    subgraph N8NLayer["🔄 N8N Workflow Automation"]
+        N8N["N8N Server"]
+        
+        subgraph Workflows["Automated Workflows"]
+            DailyDigest["Daily Activity<br/>Digest"]
+            ContentRefresh["Content<br/>Refresh Pipeline"]
+            AlertWorkflow["Safety Alert<br/>Notifications"]
+        end
+
+        subgraph NotificationTargets["Notification Targets"]
+            SendGrid["SendGrid<br/>(Email)"]
+            SlackNotify["Slack<br/>(Team Alerts)"]
+        end
+    end
+
+    subgraph MCPLayer["🔌 MCP Connectors"]
+        MCPServer["MCP Server<br/>(w/ Timeout: 10s)"]
+        CalendarMCP["Calendar<br/>Integration"]
+        WeatherMCP["Weather API<br/>for Activities"]
+    end
+
+    %% Main Request Flow
+    WebApp --> Gateway
+    FutureMobile -.-> Gateway
+    FutureVoice -.-> Gateway
+    Gateway --> RateLimiter
+    RateLimiter --> FastAPI
+    FastAPI --> InputGuardrails
+    
+    %% Input Processing Flow
+    LiteFilter --> PII
+    PII --> ToxicInput
+    ToxicInput --> AgeVerify
+    AgeVerify --> InputSanitize
+    InputSanitize --> Router
+    
+    %% Guardrail Rejection Path
+    ToxicInput -.->|"blocked"| SafeFallback
+    ContentSafety -.->|"unsafe"| SafeFallback
+    HallucinationDetect -.->|"hallucination"| SafeFallback
+    SafeFallback -.->|"safe response"| FastAPI
+    
+    %% Agent Routing
+    Router --> ActivityAgent
+    Router --> StoryAgent
+    Router --> WhyAgent
+    Router --> ContextManager
+    
+    %% RAG Flow
+    ActivityAgent --> QueryProcessor
+    StoryAgent --> QueryProcessor
+    WhyAgent --> QueryProcessor
+    
+    QueryProcessor --> HybridSearch
+    HybridSearch --> Supabase
+    HybridSearch --> Reranker
+    Reranker --> RelevanceCheck
+    RelevanceCheck -->|"≥0.75"| ChunkManager
+    RelevanceCheck -->|"<0.75"| NoRAGFallback
+    NoRAGFallback --> SafeFallback
+    
+    Supabase --> ActivitiesIdx
+    Supabase --> StoriesIdx
+    Supabase --> KnowledgeIdx
+    
+    %% LLM Flow with Reliability
+    ChunkManager --> LLMRouter
+    LLMRouter --> RetryLogic
+    RetryLogic --> OpenAI
+    RetryLogic -->|"circuit open"| Fallback
+    
+    OpenAI --> OutputGuardrails
+    Fallback --> OutputGuardrails
+    
+    %% Output Flow (Explicit Egress)
+    ContentSafety --> FactCheck
+    FactCheck --> ToneCheck
+    ToneCheck --> HallucinationDetect
+    HallucinationDetect -->|"passed"| FastAPI
+    FastAPI --> Gateway
+    Gateway --> WebApp
+    
+    %% Data Layer Connections
+    Router --> SupabaseDB
+    Router --> Redis
+    StoryAgent --> S3
+    
+    %% Worker Flow (Redis as Celery Broker)
+    FastAPI --> Redis
+    Redis --> CeleryWorker
+    CeleryWorker --> EmbeddingTask
+    CeleryWorker --> EvalTask
+    CeleryWorker --> LogTask
+    CeleryWorker --> AuditTask
+    
+    EmbeddingTask --> Supabase
+    EvalTask --> Langfuse
+    LogTask --> Prometheus
+    AuditTask --> SupabaseDB
+    
+    %% Monitoring Flow
+    Prometheus --> Grafana
+    Grafana --> Alerting
+    Alerting --> SlackNotify
+    
+    %% N8N Workflow Connections (Fixed)
+    N8N --> DailyDigest
+    N8N --> ContentRefresh
+    N8N --> AlertWorkflow
+    
+    DailyDigest --> SendGrid
+    ContentRefresh --> Supabase
+    AlertWorkflow --> SlackNotify
+    AlertWorkflow --> SupabaseDB
+    
+    %% MCP Connections
+    MCPServer --> CalendarMCP
+    MCPServer --> WeatherMCP
+    ActivityAgent --> MCPServer
+
+    %% Styling
+    classDef guardrail fill:#FF6B6B,stroke:#C92A2A,color:#fff
+    classDef agent fill:#4ECDC4,stroke:#1A9089,color:#fff
+    classDef storage fill:#45B7D1,stroke:#1A7A8C,color:#fff
+    classDef llm fill:#96CEB4,stroke:#5D9B7B,color:#fff
+    classDef monitor fill:#FFEAA7,stroke:#D4AC0D,color:#333
+    classDef automation fill:#DDA0DD,stroke:#8B008B,color:#333
+    classDef future fill:#E0E0E0,stroke:#999,color:#666,stroke-dasharray: 5 5
+    classDef fallback fill:#FFA500,stroke:#CC7000,color:#fff
+    classDef reliability fill:#9B59B6,stroke:#6C3483,color:#fff
+
+    class LiteFilter,PII,ToxicInput,AgeVerify,InputSanitize,ContentSafety,FactCheck,ToneCheck,HallucinationDetect guardrail
+    class ActivityAgent,StoryAgent,WhyAgent,Router agent
+    class SupabaseDB,Redis,S3,Supabase storage
+    class OpenAI,Fallback,LLMRouter llm
+    class Prometheus,Grafana,Langfuse,Alerting monitor
+    class N8N,DailyDigest,ContentRefresh,AlertWorkflow,SendGrid,SlackNotify automation
+    class FutureMobile,FutureVoice future
+    class SafeFallback,NoRAGFallback fallback
+    class RetryLogic,RateLimiter reliability
