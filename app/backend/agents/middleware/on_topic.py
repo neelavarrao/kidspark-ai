@@ -24,7 +24,6 @@ class OnTopicMiddleware(AgentMiddleware):
 
         # Default KidSpark topics if none provided
         self.topics = topics or [
-            "story",
             "activities for children",
             "parenting advice",
             "bedtime stories",
@@ -46,7 +45,7 @@ class OnTopicMiddleware(AgentMiddleware):
             "child psychology",
             "parenting questions",
             "why questions from children",
-            "helping children learn"
+            "helping children learn", "story",
         ]
 
         self.openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))

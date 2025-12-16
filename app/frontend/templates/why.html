@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidSpark AI - Ask Me Why!</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/why.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="why-container">
+        <!-- Sidebar -->
+        <div class="why-sidebar">
+            <div class="logo">
+                <h1>KidSpark AI</h1>
+            </div>
+            <nav class="why-nav">
+                <a href="/chat" class="nav-link">
+                    <i class="fas fa-comments"></i> Chat
+                </a>
+                <a href="/why" class="nav-link active">
+                    <i class="fas fa-question-circle"></i> Ask Why
+                </a>
+            </nav>
+            <div class="user-info">
+                <span id="user-name">...</span>
+                <button id="logout-btn" class="btn-subtle">Log Out</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="why-main">
+            <!-- Header -->
+            <div class="why-header">
+                <div class="header-left">
+                    <span class="owl-icon">🦉</span>
+                    <h2>Ask Me Why!</h2>
+                </div>
+                <div class="header-right">
+                    <label for="age-select">Age:</label>
+                    <select id="age-select" class="age-selector">
+                        <option value="3-4">3-4 years</option>
+                        <option value="5-6" selected>5-6 years</option>
+                        <option value="7+">7+ years</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Messages Area -->
+            <div class="why-messages" id="why-messages">
+                <!-- Welcome message -->
+                <div class="why-welcome">
+                    <div class="owl-mascot">🦉</div>
+                    <div class="welcome-bubble">
+                        <p>Hi there! I'm <strong>Hoot the Owl</strong>!</p>
+                        <p>I love answering questions. What do you want to know? Ask me anything!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="why-input-container">
+                <form id="why-form">
+                    <input
+                        type="text"
+                        id="why-input"
+                        placeholder="Ask a question... (e.g., Why is the sky blue?)"
+                        autocomplete="off"
+                    >
+                    <button type="submit" class="btn-ask">
+                        Ask <span class="rocket">🚀</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/why.js"></script>
+</body>
+</html>

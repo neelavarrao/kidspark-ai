@@ -9,6 +9,7 @@ from app.backend.routers.auth import get_current_user
 from app.backend.agents.models.intent import UserMessage, AgentResponse, IntentType
 from app.backend.agents.routers.intent_router import IntentRouter
 from app.backend.agents.specialized.story_agent import StoryAgent
+from app.backend.agents.specialized.activity_agent import ActivityAgent
 
 # Initialize router
 router = APIRouter(tags=["Agent"])
@@ -19,6 +20,9 @@ intent_router = IntentRouter()
 # Story agents are created per-request to maintain separate conversation state
 # This dict stores active agents by user ID
 story_agents = {}
+
+# Activity agents are created per-request to maintain separate conversation state
+activity_agents = {}
 
 @router.post("/intent", response_model=AgentResponse)
 async def detect_intent(
@@ -99,13 +103,10 @@ async def process_agent_message(
 
             # Extract child age from detected params if available
             detected_params = primary_intent.detected_params or {}
-            child_age = detected_params.get('age')
 
-            # Use the story agent to get story with metadata for the modal
-            story_result = await story_agents[user_id].get_story_with_metadata(
-                message.content,
-                child_age=child_age
-            )
+            # Use handle_message to go through the LangChain agent with middleware
+            # This ensures guardrails (toxicity, on-topic) are applied
+            story_result = await story_agents[user_id].handle_message(message.content)
 
             if story_result.get("success") and story_result.get("story_data"):
                 # Return response with story data for the modal
@@ -121,7 +122,7 @@ async def process_agent_message(
                     }
                 )
             else:
-                # No story found, return the error message
+                # No story found or guardrail blocked, return the message
                 return AgentResponse(
                     content=story_result.get("message", "I couldn't find a story. Please try again."),
                     detected_intent=primary_intent.type,
@@ -132,8 +133,45 @@ async def process_agent_message(
                     }
                 )
         elif primary_intent.type == IntentType.ACTIVITY:
-            # Placeholder for activity agent (future implementation)
-            response_content = "I'd love to suggest an activity! In the next phase, I'll have personalized activity recommendations."
+            # Get or create an ActivityAgent for this user
+            user_id = str(message.user_id) if message.user_id else str(uuid.uuid4())
+            if user_id not in activity_agents:
+                activity_agents[user_id] = ActivityAgent(
+                    run_id=str(uuid.uuid4()),
+                    user_id=user_id
+                )
+
+            # Extract parameters from detected params
+            detected_params = primary_intent.detected_params or {}
+
+            # Use handle_message to go through the LangChain agent with middleware
+            # This ensures guardrails (toxicity, on-topic) are applied
+            activity_result = await activity_agents[user_id].handle_message(message.content)
+
+            if activity_result.get("success") and activity_result.get("activity_data"):
+                # Return response with activity data for the modal
+                return AgentResponse(
+                    content=activity_result["message"],
+                    detected_intent=primary_intent.type,
+                    metadata={
+                        "confidence": primary_intent.confidence,
+                        "detection_method": primary_intent.detection_method,
+                        "detected_params": detected_params,
+                        "display_type": "activity",
+                        "activity_data": activity_result["activity_data"]
+                    }
+                )
+            else:
+                # No activity found or guardrail blocked, return the message
+                return AgentResponse(
+                    content=activity_result.get("message", "I couldn't find an activity. Please try again."),
+                    detected_intent=primary_intent.type,
+                    metadata={
+                        "confidence": primary_intent.confidence,
+                        "detection_method": primary_intent.detection_method,
+                        "detected_params": detected_params
+                    }
+                )
         elif primary_intent.type == IntentType.WHY:
             # Placeholder for explanation agent (future implementation)
             response_content = "That's a great question! In the next phase, I'll have child-friendly explanations."

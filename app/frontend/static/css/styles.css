@@ -204,6 +204,39 @@ a:hover {
     font-size: 24px;
 }
 
+/* Navigation Links */
+.chat-nav {
+    margin-bottom: 20px;
+}
+
+.chat-nav .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: all 0.2s ease;
+}
+
+.chat-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.chat-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--white);
+}
+
+.chat-nav .nav-link i {
+    width: 20px;
+    text-align: center;
+}
+
 .user-info {
     margin-top: auto;
     padding-top: 20px;
