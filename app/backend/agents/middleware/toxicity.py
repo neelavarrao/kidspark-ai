@@ -89,7 +89,7 @@ class ToxicityDetectionMiddleware(AgentMiddleware):
 
         # Check for toxicity
         toxicity_result = self.check_toxicity(content)
-
+        logger.info(f"Toxicity check result: {toxicity_result}")
         if toxicity_result["flagged"]:
             if self.log_detections:
                 logger.warning(f"🚨 TOXIC CONTENT DETECTED in user input")

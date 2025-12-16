@@ -31,23 +31,27 @@ Your role is to help parents find the perfect bedtime story for their children.
 IMPORTANT: When a user asks for a story, you MUST:
 1. IMMEDIATELY use the search_stories tool with the user's request as the query
 2. DO NOT ask clarifying questions - just search with whatever information is provided
-3. After finding stories, use get_story to retrieve the full story text for the best match
-4. Present the story text directly to the user
+3. After finding stories, use get_story to retrieve the full story for the best match
+4. After calling get_story, respond with ONLY a SHORT announcement like:
+   "I found a wonderful story for you: **[Story Title]**! Click 'Open Story' to enjoy it."
+
+CRITICAL: Do NOT include the full story text in your response. The story will be displayed in a popup modal.
+Just announce that you found the story and mention its title.
 
 You have access to these tools:
 - search_stories: Search for stories by theme, topic, or description. ALWAYS use this first.
-- get_story: Get the full story text by ID after finding a match.
+- get_story: Get the full story by ID after finding a match. Returns the story details.
 
 Example workflow:
-- User says "tell me a story about kindness" -> Use search_stories(query="kindness") -> Use get_story(story_id=<best_match_id>) -> Return the story
+- User says "tell me a story about kindness" -> Use search_stories(query="kindness") -> Use get_story(story_id=<best_match_id>) -> Respond: "I found a wonderful story for you: **The Kindness Tree**! Click 'Open Story' to enjoy it."
 
 Guidelines:
 - Always be child-appropriate and supportive of positive parenting
 - If no matching story is found, apologize and suggest trying themes like: adventure, princess, dinosaur, space, animals, magic
-- Present stories in a warm, engaging format
+- Keep your response SHORT - just announce the story title
 - DO NOT ask for age or other details unless the search returns no results
 
-Remember: Your primary job is to find and present stories, not to have conversations!
+Remember: Your job is to find stories and announce them briefly. The full story displays in a modal!
 """
 
 
@@ -91,6 +95,7 @@ class StoryAgent:
         self.message_history = []
         self.supabase = get_supabase_client()
         self.system_prompt = STORY_AGENT_SYSTEM_PROMPT
+        self.last_story_data = None  # Store the last retrieved story for modal display
 
     def record_story_shown(self, story_id: int, user_id: str = None) -> bool:
         """
@@ -190,6 +195,7 @@ class StoryAgent:
     def _create_search_stories_tool(self):
         """Create the search_stories tool for the agent"""
         supabase = self.supabase
+        agent_instance = self  # Reference to access user history
 
         @tool
         def search_stories(query: str, child_age: Optional[int] = None) -> str:
@@ -209,11 +215,11 @@ class StoryAgent:
                 # Generate embedding for the query
                 query_embedding = get_embedding(query)
 
-                # Prepare RPC parameters
+                # Prepare RPC parameters - fetch more to account for filtering
                 rpc_params = {
                     'query_embedding': query_embedding,
-                    'match_threshold': 0.1,  # Lower threshold to get more candidates for reranking
-                    'match_count': 5
+                    'match_threshold': 0.6,  # Lower threshold to get more candidates for reranking
+                    'match_count': 10  # Fetch more to have options after filtering seen stories
                 }
 
                 # Add age filter if provided
@@ -223,12 +229,25 @@ class StoryAgent:
 
                 # Call the enhanced match function
                 response = supabase.rpc('match_stories_enhanced', rpc_params).execute()
-                print(response)
+
                 if response.data and len(response.data) > 0:
-                    logger.info(f"Found {len(response.data)} matching stories")
+                    # Get previously seen stories to exclude them
+                    seen_story_ids = agent_instance.get_user_story_history()
+                    logger.info(f"User has seen {len(seen_story_ids)} stories: {seen_story_ids}")
+
+                    # Filter out previously seen stories
+                    unseen_stories = [s for s in response.data if s['id'] not in seen_story_ids]
+
+                    # If all stories have been seen, use all stories but log a message
+                    if not unseen_stories:
+                        logger.info("User has seen all matching stories, showing a repeat")
+                        unseen_stories = response.data
+
+                    logger.info(f"Found {len(unseen_stories)} unseen matching stories")
+
                     # Return stories with metadata for reranking
                     stories = []
-                    for story in response.data:
+                    for story in unseen_stories:
                         stories.append({
                             'id': story['id'],
                             'title': story['story_title'],
@@ -254,6 +273,7 @@ class StoryAgent:
     def _create_get_story_tool(self):
         """Create the get_story tool to retrieve full story text"""
         supabase = self.supabase
+        agent_instance = self  # Reference to store story data
 
         @tool
         def get_story(story_id: int) -> str:
@@ -270,12 +290,31 @@ class StoryAgent:
                 logger.info(f"Retrieving story with ID: {story_id}")
 
                 response = supabase.table('stories').select(
-                    'story_title, story_text, moral_lesson, discussion_questions'
+                    'id, story_title, story_text, moral_lesson, discussion_questions, '
+                    'age_range_min, age_range_max, duration_minutes'
                 ).eq('id', story_id).execute()
 
                 if response.data and len(response.data) > 0:
                     story = response.data[0]
                     logger.info(f"Retrieved story: {story['story_title']}")
+
+                    # Store story data for modal display
+                    discussion_questions = story.get('discussion_questions', [])
+                    if isinstance(discussion_questions, str):
+                        discussion_questions = [discussion_questions]
+
+                    agent_instance.last_story_data = {
+                        "id": story['id'],
+                        "title": story['story_title'],
+                        "content": story['story_text'],
+                        "moral": story['moral_lesson'],
+                        "age_range": f"{story.get('age_range_min', 2)}-{story.get('age_range_max', 6)} years",
+                        "reading_time": story.get('duration_minutes', 5),
+                        "discussion_questions": discussion_questions if isinstance(discussion_questions, list) else []
+                    }
+
+                    # Record that this story was shown to the user
+                    agent_instance.record_story_shown(story_id=story['id'])
 
                     # Format the story nicely
                     formatted_story = f"""
@@ -288,10 +327,12 @@ class StoryAgent:
 """
                     return formatted_story
                 else:
+                    agent_instance.last_story_data = None
                     return "Story not found. Please try searching for a different story."
 
             except Exception as e:
                 logger.error(f"Error retrieving story: {str(e)}")
+                agent_instance.last_story_data = None
                 return f"Error retrieving story: {str(e)}"
 
         return get_story
@@ -342,15 +383,16 @@ class StoryAgent:
             # Fallback to highest similarity score
             return stories[0]['id']
 
-    async def handle_message(self, user_message: str) -> str:
+    async def handle_message(self, user_message: str) -> Dict:
         """
-        Handle a user message requesting a story.
+        Handle a user message requesting a story using the LangChain agent.
+        Middleware (toxicity, on-topic) is applied automatically by the agent.
 
         Args:
             user_message: The user's message
 
         Returns:
-            The agent's response (typically the story text)
+            Dict with 'success', 'message', and optionally 'story_data' for modal display
         """
         try:
             # Initialize agent if not already done
@@ -359,10 +401,14 @@ class StoryAgent:
 
             logger.info(f"Processing story request: {user_message[:50]}...")
 
+            # Clear any previous story data
+            self.last_story_data = None
+
             # Add the user message to history
             self.message_history.append(HumanMessage(content=user_message))
 
             # Invoke the agent with message history
+            # Middleware is applied automatically by create_agent
             result = await self.agent.ainvoke({
                 "messages": self.message_history
             })
@@ -374,11 +420,24 @@ class StoryAgent:
             response = result['messages'][-1].content
             logger.info("Story response generated successfully")
 
-            return response
+            # Return response with story data if available
+            result_dict = {
+                "success": True,
+                "message": response
+            }
+
+            # If a story was retrieved by the tool, include it for modal display
+            if self.last_story_data:
+                result_dict["story_data"] = self.last_story_data
+
+            return result_dict
 
         except Exception as e:
             logger.error(f"Error processing story request: {str(e)}")
-            return f"I'm sorry, I had trouble finding a story for you. Could you try asking in a different way? Error: {str(e)}"
+            return {
+                "success": False,
+                "message": f"I'm sorry, I had trouble finding a story for you. Could you try asking in a different way? Error: {str(e)}"
+            }
 
     async def get_story_directly(self, user_query: str, child_age: Optional[int] = None) -> str:
         """

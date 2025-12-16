@@ -6,7 +6,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.requests import Request
 from dotenv import load_dotenv
 
-from app.backend.routers import auth, chat, agent
+from app.backend.routers import auth, chat, agent, why
 
 # Load environment variables
 load_dotenv()
@@ -30,6 +30,7 @@ templates = Jinja2Templates(directory="app/frontend/templates")
 app.include_router(auth.router, prefix="/api", tags=["Authentication"])
 app.include_router(chat.router, prefix="/api/chat", tags=["Chat"])
 app.include_router(agent.router, prefix="/api", tags=["Agent"])
+app.include_router(why.router, tags=["Why"])
 
 # Frontend routes
 @app.get("/", response_class=HTMLResponse)

@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Helper to append message with intent badge
     function appendMessageWithIntent(content, sender, intent, metadata = null) {
+        console.log('appendMessageWithIntent called:', { content, sender, intent, metadata });
         const messageDiv = document.createElement('div');
         messageDiv.className = `message ${sender}`;
 
@@ -121,6 +122,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 );
             });
             messageContent.appendChild(storyButton);
+        }
+
+        // Check if this is an activity response that should trigger the activity modal
+        console.log('Checking activity response:', intent, metadata);
+        if (intent === 'activity' && metadata && metadata.display_type === 'activity' && metadata.activity_data) {
+            console.log('Adding activity button, activity_data:', metadata.activity_data);
+            // Add a clickable button to open the activity
+            const activityButton = document.createElement('button');
+            activityButton.className = 'btn-primary';
+            activityButton.style.marginTop = '10px';
+            activityButton.style.backgroundColor = '#4CAF50'; // Green for activities
+            activityButton.style.display = 'inline-block';
+            activityButton.style.width = 'auto';
+            activityButton.textContent = 'View Activity';
+            activityButton.addEventListener('click', () => {
+                // Dispatch event to open activity modal
+                document.dispatchEvent(
+                    new CustomEvent('activityReceived', {
+                        detail: metadata.activity_data
+                    })
+                );
+            });
+            messageContent.appendChild(activityButton);
+            console.log('Activity button added to messageContent');
         }
 
         // Add intent badge if available
@@ -169,6 +194,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.dispatchEvent(
                     new CustomEvent('storyReceived', {
                         detail: metadata.story_data
+                    })
+                );
+            }, 500);
+        }
+
+        // If this is an activity response, automatically trigger the activity modal
+        if (intent === 'activity' && metadata && metadata.display_type === 'activity' && metadata.activity_data) {
+            // Delay slightly to ensure UI updates first
+            setTimeout(() => {
+                document.dispatchEvent(
+                    new CustomEvent('activityReceived', {
+                        detail: metadata.activity_data
                     })
                 );
             }, 500);
