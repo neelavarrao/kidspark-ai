@@ -109,9 +109,6 @@ The application will be available at http://127.0.0.1:8000
 
 ## Next Steps (Future Phases)
 
-- Implement the Activity Suggester Agent
-- Implement the Bedtime Story Generator Agent
-- Implement the "Why?" Question Answerer Agent
 - Add user profiles for multiple children
 - Enhance guardrails implementation
 - Develop mobile interface
