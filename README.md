@@ -8,6 +8,8 @@ KidSpark AI is an intelligent parenting assistant that combines three essential 
 
 This repository contains Phase 1 of the KidSpark AI application, focusing on user authentication and a basic chat interface.
 
+https://kidspark-ai.onrender.com/
+
 ## Project Structure
 
 ```
@@ -28,7 +30,7 @@ supabase/
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.11+
 - Supabase account with project set up
 - Environment variables configured
 
@@ -96,22 +98,8 @@ The application will be available at http://127.0.0.1:8000
 2. Press Enter or click Send to submit your message
 3. The AI assistant will respond with a helpful message
 
-## API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/register` | POST | Register a new user |
-| `/api/token` | POST | Login and get access token |
-| `/api/users/me` | GET | Get current user profile |
-| `/api/chat/messages` | POST | Send a message |
-| `/api/chat/messages/history` | GET | Get chat history |
-| `/api/chat/ws/{client_id}` | WebSocket | Real-time chat connection |
-
 ## Next Steps (Future Phases)
 
-- Implement the Activity Suggester Agent
-- Implement the Bedtime Story Generator Agent
-- Implement the "Why?" Question Answerer Agent
 - Add user profiles for multiple children
 - Enhance guardrails implementation
 - Develop mobile interface
