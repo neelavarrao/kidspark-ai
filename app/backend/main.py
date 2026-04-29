@@ -35,15 +35,15 @@ app.include_router(why.router, tags=["Why"])
 # Frontend routes
 @app.get("/", response_class=HTMLResponse)
 async def get_login_page(request: Request):
-    return templates.TemplateResponse("login.html", {"request": request})
+    return templates.TemplateResponse(request, "login.html")
 
 @app.get("/register", response_class=HTMLResponse)
 async def get_register_page(request: Request):
-    return templates.TemplateResponse("register.html", {"request": request})
+    return templates.TemplateResponse(request, "register.html")
 
 @app.get("/chat", response_class=HTMLResponse)
 async def get_chat_page(request: Request):
-    return templates.TemplateResponse("chat.html", {"request": request})
+    return templates.TemplateResponse(request, "chat.html")
 
 # Serve static files
 app.mount("/static", StaticFiles(directory="app/frontend/static"), name="static")
