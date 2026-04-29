@@ -22,7 +22,7 @@ class IntentRouter:
 
     def __init__(self):
         # Initialize OpenAI client
-        self.openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        self.openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"), default_headers={"x-session-id": "kidspark"})
         self.supabase = get_supabase_client()
 
         # Define regex patterns for each intent

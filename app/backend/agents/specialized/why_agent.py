@@ -105,7 +105,7 @@ class WhyAgent:
             run_id: Unique identifier for this session
             user_id: ID of the user making the request
         """
-        self.llm = ChatOpenAI(model=model_name, temperature=0.7)  # Slightly creative
+        self.llm = ChatOpenAI(model=model_name, temperature=0.7, default_headers={"x-session-id": "kidspark"})
         self.run_id = run_id or str(uuid.uuid4())
         self.user_id = user_id
         self.conversation_history: List[Dict] = []  # Track Q&A for follow-ups

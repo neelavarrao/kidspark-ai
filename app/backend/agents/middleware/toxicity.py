@@ -40,7 +40,7 @@ class ToxicityDetectionMiddleware(AgentMiddleware):
         self.sanitize_toxic_output = sanitize_toxic_output
         self.log_detections = log_detections
         self.toxicity_threshold = toxicity_threshold
-        self.openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        self.openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"), default_headers={"x-session-id": "kidspark"})
 
     def check_toxicity(self, text: str) -> dict:
         """

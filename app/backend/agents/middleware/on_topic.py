@@ -48,7 +48,7 @@ class OnTopicMiddleware(AgentMiddleware):
             "helping children learn", "story",
         ]
 
-        self.openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        self.openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"), default_headers={"x-session-id": "kidspark"})
 
     def check_on_topic(self, text: str) -> dict:
         """

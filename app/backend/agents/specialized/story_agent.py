@@ -87,8 +87,8 @@ class StoryAgent:
             run_id: Unique identifier for this conversation run
             user_id: ID of the user making the request
         """
-        self.llm = ChatOpenAI(model=model_name)
-        self.rerank_llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)  # Faster model for reranking
+        self.llm = ChatOpenAI(model=model_name, default_headers={"x-session-id": "kidspark"})
+        self.rerank_llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0, default_headers={"x-session-id": "kidspark"})
         self.agent = None
         self.run_id = run_id or str(uuid.uuid4())
         self.user_id = user_id
