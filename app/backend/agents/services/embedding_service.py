@@ -22,7 +22,7 @@ class EmbeddingService:
 
     def __init__(self):
         """Initialize the embedding service with OpenAI client"""
-        self.client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        self.client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"), default_headers={"x-session-id": "kidspark"})
         self.model = EMBEDDING_MODEL
 
     def get_embedding(self, text: str) -> List[float]:
