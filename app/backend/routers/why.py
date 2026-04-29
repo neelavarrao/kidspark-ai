@@ -45,7 +45,7 @@ class WhyResponse(BaseModel):
 @router.get("/why", response_class=HTMLResponse)
 async def why_page(request: Request):
     """Serve the Ask Me Why page."""
-    return templates.TemplateResponse("why.html", {"request": request})
+    return templates.TemplateResponse(request, "why.html")
 
 
 @router.post("/api/why", response_model=WhyResponse)
